@@ -107,3 +107,29 @@ Output 1
 
 Table FACILITIES dropped.
 ```
+
+---
+
+### Question 4 :
+
+Write a query to `rename` the table members to '`members_details`'
+
+> The required input tables are created in the back end.
+
+##### Expected Input / Output:
+
+```
+Input format
+No console input.
+
+Output format
+The output prints the status.
+
+Refer sample output.
+
+Sample testcases
+Input 1
+Output 1
+
+Table MEMBERS altered.
+```
