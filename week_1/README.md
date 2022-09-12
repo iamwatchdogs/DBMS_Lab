@@ -81,3 +81,29 @@ TELEPHONE        NOT NULL    VARCHAR2(20)
 RECOMMENDEDBY                VARCHAR2(20)     
 JOINDATE         NOT NULL    VARCHAR2(10)  
 ```
+
+---
+
+### Question 3 :
+
+Write a query to drop the table `facilities`
+
+> The required tables are populated in the backend.
+
+##### Expected Input / Output:
+
+```
+Input format
+No console input
+
+Output format
+The output prints the status.
+
+Refer sample output.
+
+Sample testcases
+Input 1
+Output 1
+
+Table FACILITIES dropped.
+```
