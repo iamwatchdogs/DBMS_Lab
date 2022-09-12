@@ -1,8 +1,6 @@
 # DDL Commands (Week - 1)
----
-## DBMS_ORACLE_EXERCISE_DDL_COMMANDS
 
----
+## DBMS_ORACLE_EXERCISE_DDL_COMMANDS
 
 ### Question 1 :
 
