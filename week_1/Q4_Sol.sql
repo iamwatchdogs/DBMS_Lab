@@ -1,0 +1,1 @@
+ALTER TABLE members RENAME TO members_details;
