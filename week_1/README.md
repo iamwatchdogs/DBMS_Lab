@@ -133,3 +133,51 @@ Output 1
 
 Table MEMBERS altered.
 ```
+
+---
+
+### Question 5 :
+
+From the table schema given below, write a query to create table tracks.
+
+*(Follow the same table names/column names as given along with the case)*
+
+The artists table is **already created** with the `primary key` as id.
+
+> **Note**:
+>
+>> In tracks table, traid is the Primary key and artist is the Foreign Key referencing id of artists table.
+
+- While creating a tracks table,
+  - traid is the `Primary Key`
+  - define the `foreign key` relation between 2 tables.
+  - define all the columns with `NOT NULL` condition
+
+<div align="center">
+    <a href="src/Q5.png" target="_blank" title="View image" >
+        <img src="src/Q5.png" alt="" title="Question 5" />
+    </a>
+</div>
+
+##### Expected Input / Output:
+
+```
+Input format
+No console input.
+
+Output format
+The output prints the description of the tracks table.
+
+Sample testcases
+Input 1
+Output 1
+
+Table TRACKS created.
+
+
+     Name       Null?            Type 
+_________ ___________ _______________ 
+TRAID     NOT NULL    NUMBER(38)      
+TITLE     NOT NULL    VARCHAR2(25)    
+ARTIST    NOT NULL    NUMBER(38)     
+```
