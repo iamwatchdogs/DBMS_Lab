@@ -5,8 +5,10 @@
 ### Question 1 :
 
 From the DDL given below,
-Write a query to create  a table "members" and print its description.
-Hint: Refer to the table for the field names and the data type of the table 
+
+Write a query to create  a table `"members"` and print its description.
+
+***Hint:** Refer to the table for the field names and the data type of the table* 
 
 <div align="center">
     <a href="src/Q1.png" target="_blank" title="View image" >
@@ -14,13 +16,16 @@ Hint: Refer to the table for the field names and the data type of the table
     </a>
 </div>
 
-Note:
-    1. Make sure to apply NOT NULL and Primary Key (PK) conditions for the columns where ever applicable.
+- **Note**:
+    1. Make sure to apply `NOT NULL` and `Primary Key` (PK) conditions for the columns where ever applicable.
     2. While creatin a table, table name and column name should be exactly the same as given in DDL (including upper/lower case)
 
-##### Expected Output:
+##### Expected Input / Output:
 
 ```
+Input format
+No console input.
+
 Table MEMBERS created.
 
 
@@ -40,7 +45,7 @@ JOINDATE         NOT NULL    VARCHAR2(10)
 
 ### Question 2 :
 
-Write a query to change the data type of the column recommendedby in the table 'members' to varchar(20).
+Write a query to change the data type of the column `recommendedby` in the table '`members`' to `varchar(20)`.
 
 Refer to the existing table DLL below.
 
@@ -53,6 +58,8 @@ Existing Table DDL:
 </div>
 
 > **The required table is created in the backend.**
+
+##### Expected Input / Output:
 
 ```
 Input format
