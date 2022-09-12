@@ -35,3 +35,42 @@ TELEPHONE        NOT NULL    VARCHAR2(20)
 RECOMMENDEDBY                NUMBER(38)      
 JOINDATE         NOT NULL    VARCHAR2(10)
 ```
+
+---
+
+### Question 2 :
+
+Write a query to change the data type of the column recommendedby in the table 'members' to varchar(20).
+
+Refer to the existing table DLL below.
+
+Existing Table DDL:
+
+<div align="center">
+    <a href="src/Q2.png" target="_blank" title="View image" >
+        <img src="src/Q2.png" alt="" title="Question 2" />
+    </a>
+</div>
+
+> **The required table is created in the backend.**
+
+```
+Input format
+No console input.
+
+Output format
+
+Table MEMBERS altered.
+
+
+            Name       Null?             Type 
+________________ ___________ ________________ 
+MEMID            NOT NULL    NUMBER(38)       
+SURNAME          NOT NULL    VARCHAR2(200)    
+FIRSTNAME        NOT NULL    VARCHAR2(200)    
+ADDRESS          NOT NULL    VARCHAR2(300)    
+ZIPCODE          NOT NULL    NUMBER(38)       
+TELEPHONE        NOT NULL    VARCHAR2(20)     
+RECOMMENDEDBY                VARCHAR2(20)     
+JOINDATE         NOT NULL    VARCHAR2(10)  
+```
