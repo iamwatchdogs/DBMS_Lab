@@ -6,19 +6,10 @@
 
 Which command is used for removing a table and all its data from the database:
 
-<div id="Question-1">
-    <input type="radio" id="option-1" name="Question-1" value="option-1" onclick="return false;">
-    <label for="option-1">Create Command</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-1" value="option-2" checked>
-    <label for="option-2">Drop table command</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-1" value="option-3" onclick="return false;">
-    <label for="option-3">After table command</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-1" value="option-4" onclick="return false;">
-    <label for="option-4">All of the listed options</label>
-</div>
+- [ ] Create Command
+- [x] Drop table command
+- [ ] After table command
+- [ ] All of the listed options
 
 ---
 
@@ -36,19 +27,10 @@ CREATE TABLE departments (
 
 What will happen when the above code is executed ?
 
-<div id="Question-2">
-    <input type="radio" id="option-1" name="Question-2" value="option-1" onclick="return false;">
-    <label for="option-1">table will not be created because of invalid data type 'DATE'</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-2" value="option-2" onclick="return false;">
-    <label for="option-2">table will not be createed because we can not use create keyword in column name 'create_date'</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-2" value="option-3" checked>
-    <label for="option-3">it will create table DEPARTMENTS</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-2" value="option-4" onclick="return false;">
-    <label for="option-4">table will not be created because of <code>DEFAULT</code> in the create table statement</label>
-</div>
+- [ ] table will not be created because of invalid data type 'DATE'
+- [ ] table will not be createed because we can not use create keyword in column name 'create_date'
+- [x] it will create table DEPARTMENTS
+- [ ] table will not be created because of `DEFAULT` in the create table statement
 
 ---
 
@@ -66,19 +48,10 @@ CREATE TABLE ACCOUNT (
 
 The table is NOT getting created, identify the reason.
 
-<div id="Question-3">
-    <input type="radio" id="option-1" name="Question-3" value="option-1" onclick="return false;">
-    <label for="option-1">BALANCE must be NOT NULL</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-3" value="option-2" onclick="return false;">
-    <label for="option-2">ACCNO must be NOT NULL</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-3" value="option-3" onclick="return false;">
-    <label for="option-3">Primary key is missing for ACCOUNT</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-3" value="option-4" checked>
-    <label for="option-4">BALANCE must have a datatype</label>
-</div>
+- [ ] BALANCE must be NOT NULL
+- [ ] ACCNO must be NOT NULL
+- [ ] Primary key is missing for ACCOUNT
+- [x] BALANCE must have a datatype
 
 ---
 
@@ -86,19 +59,10 @@ The table is NOT getting created, identify the reason.
 
 Which command is used to remove all remove all records from a table, including all memory storage spaces allocated for the records that were removed ?
 
-<div id="Question-4">
-    <input type="radio" id="option-1" name="Question-4" value="option-1" onclick="return false;">
-    <label for="option-1"><code>ALTER</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-4" value="option-2" onclick="return false;">
-    <label for="option-2"><code>TRUNCATE</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-4" value="option-3" checked>
-    <label for="option-3"><code>DROP</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-4" value="option-4" onclick="return false;">
-    <label for="option-4"><code>MODIFY</code></label>
-</div>
+- [ ] `ALTER`
+- [ ] `TRUNCATE`
+- [x] `DROP`
+- [ ] MODIFY
 
 ---
 
@@ -106,19 +70,10 @@ Which command is used to remove all remove all records from a table, including a
 
 A command that lets you change one or more fields in a record is
 
-<div id="Question-5">
-    <input type="radio" id="option-1" name="Question-5" value="option-1" onclick="return false;">
-    <label for="option-1">Insert</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-5" value="option-2" checked>
-    <label for="option-2">Modify</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-5" value="option-3" onclick="return false;">
-    <label for="option-3">Look-up</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-5" value="option-4" onclick="return false;">
-    <label for="option-4">All the above</label>
-</div>
+- [ ] Insert
+- [x] Modify
+- [ ] Look-up
+- [ ] All the above
 
 ---
 
@@ -135,19 +90,10 @@ CREATE TABLE person (
 );
 ```
 
-<div id="Question-6">
-    <input type="radio" id="option-1" name="Question-6" value="option-1" onclick="return false;">
-    <label for="option-1"><code>INT</code> is not a valid data type</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-6" value="option-2" onclick="return false;">
-    <label for="option-2"><code>VARCHAR</code> length should be 250</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-6" value="option-3" checked>
-    <label for="option-3">For <code>VARCHAR</code>, length must be specified</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-6" value="option-4" onclick="return false;">
-    <label for="option-4">None of the listed options</label>
-</div>
+- [ ] `INT` is not a valid data type
+- [ ] `VARCHAR` length should be 25
+- [x] For `VARCHAR`, length must be specified
+- [ ] None of the listed options
 
 ---
 
@@ -155,19 +101,10 @@ CREATE TABLE person (
 
 What is the meaning of "`REFERENCES`" in table definition ?
 
-<div id="Question-7">
-    <input type="radio" id="option-1" name="Question-7" value="option-1" onclick="return false;">
-    <label for="option-1">Primary Key</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-7" value="option-2" onclick="return false;">
-    <label for="option-2">NULL</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-7" value="option-3" checked>
-    <label for="option-3">References to other table name</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-7" value="option-4" onclick="return false;">
-    <label for="option-4">A "foreign Key" belong to this particular table</label>
-</div>
+- [ ] Primary Key
+- [ ] NULL
+- [x] References to other table name
+- [ ] A "foreign Key" belong to this particular table
 
 ---
 
@@ -175,19 +112,10 @@ What is the meaning of "`REFERENCES`" in table definition ?
 
 Which among the following is the correct syntax for creating a table ?
 
-<div id="Question-8">
-    <input type="radio" id="option-1" name="Question-8" value="option-1" onclick="return false;">
-    <label for="option-1"><code>CREATE TABLE INTO table_name(column_name datatype);</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-8" value="option-2" onclick="return false;">
-    <label for="option-2"><code>CREATE TABLE table_name VALUES(column_name datatype);</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-8" value="option-3" onclick="return false;">
-    <label for="option-3"><code>CREATE TBLE table_name(column_name datatype);</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-8" value="option-4" checked >
-    <label for="option-4">none of the above</label>
-</div>
+- [ ] CREATE TABLE INTO table_name(column_name datatype);
+- [ ] CREATE TABLE table_name VALUES(column_name datatype);
+- [ ] CREATE TBLE table_name(column_name datatype);
+- [x] none of the above
 
 ---
 
@@ -215,19 +143,10 @@ The rows are inserted in to the table as below
 > 
 > row-4 values are ( 1002, 'Ross', 'Finance', 20000 )
 
-<div id="Question-9">
-    <input type="radio" id="option-1" name="Question-9" value="option-1" onclick="return false;">
-    <label for="option-1">All rows are inserted successfully</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-9" value="option-2" onclick="return false;">
-    <label for="option-2">There is an error in <code>CREATE</code> statement</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-9" value="option-3" onclick="return false;">
-    <label for="option-3">row3 will not be inserted because of Duplicate entry</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-9" value="option-4" checked >
-    <label for="option-4">row4 will not be inserted because of Duplicate entry</label>
-</div>
+- [ ] All rows are inserted successfully
+- [ ] There is an error in `CREATE` statement
+- [ ] row3 will not be inserted because of Duplicate entry
+- [x] row4 will not be inserted because of Duplicate entr
 
 ---
 
@@ -241,19 +160,10 @@ CREATE TABLE 99_CSE ( rollno NUMBER(20) );
 
 Which of the following is TRUE about above table creation ?
 
-<div id="Question-10">
-    <input type="radio" id="option-1" name="Question-10" value="option-1" onclick="return false;">
-    <label for="option-1">You cannot use an underscore while naming a table</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-10" value="option-2" onclick="return false;">
-    <label for="option-2">nothing is wrong and table will be created successfully</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-10" value="option-3" checked>
-    <label for="option-3">The name of a tble cannot start with a digit</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-10" value="option-4" onclick="return false;">
-    <label for="option-4">none of the above</label>
-</div>
+- [ ] You cannot use an underscore while naming a table
+- [ ] nothing is wrong and table will be created successfully
+- [x] The name of a tble cannot start with a digit
+- [ ] none of the above
 
 ---
 
@@ -261,20 +171,10 @@ Which of the following is TRUE about above table creation ?
 
 Which of the following is/are the DDL statements ?
 
-
-<div id="Question-11">
-    <input type="radio" id="option-1" name="Question-11" value="option-1" onclick="return false;">
-    <label for="option-1">Create</label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-11" value="option-2" onclick="return false;">
-    <label for="option-2">Drop</label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-11" value="option-3" onclick="return false;">
-    <label for="option-3">Alter</label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-11" value="option-4" checked>
-    <label for="option-4">All of the Mentioned</label>
-</div>
+- [ ] Create
+- [ ] Drop
+- [ ] Alter
+- [x] All of the Mentioned
 
 ---
 
@@ -282,20 +182,10 @@ Which of the following is/are the DDL statements ?
 
 In SQL, which command(s) is(are) used to change a table's storage characteristics ?
 
-
-<div id="Question-12">
-    <input type="radio" id="option-1" name="Question-12" value="option-1" onclick="return false;">
-    <label for="option-1"><code>ALTER TABLE</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-12" value="option-2" checked>
-    <label for="option-2"><code>MODIFY TABLE</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-12" value="option-3" onclick="return false;">
-    <label for="option-3"><code>CHANGE TABLE</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-12" value="option-4" onclick="return false;">
-    <label for="option-4">All of the Mentioned</label>
-</div>
+- [ ] ALTER TABLE
+- [x] MODIFY TABLE
+- [ ] CHANGE TABLE
+- [ ] All of the Mentioned
 
 ---
 
@@ -303,20 +193,10 @@ In SQL, which command(s) is(are) used to change a table's storage characteristic
 
 In SQL, which command(s) is(are) used to change a table's storage characteristics ?
 
-
-<div id="Question-12">
-    <input type="radio" id="option-1" name="Question-12" value="option-1" onclick="return false;">
-    <label for="option-1"><code>ALTER TABLE</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-12" value="option-2" checked>
-    <label for="option-2"><code>MODIFY TABLE</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-12" value="option-3" onclick="return false;">
-    <label for="option-3"><code>CHANGE TABLE</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-12" value="option-4" onclick="return false;">
-    <label for="option-4">All of the Mentioned</label>
-</div>
+- [ ] ALTER TABLE
+- [x] MODIFY TABLE
+- [ ] CHANGE TABLE
+- [ ] All of the Mentioned
 
 ---
 
@@ -324,20 +204,10 @@ In SQL, which command(s) is(are) used to change a table's storage characteristic
 
 Which of the following statement will remove the column JOB from the table ?
 
-
-<div id="Question-13">
-    <input type="radio" id="option-1" name="Question-13" value="option-1" onclick="return false;">
-    <label for="option-1"><code>ALTER TABLE table_name DROP (job);</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-13" value="option-2" onclick="return false;">
-    <label for="option-2"><code>ALTER TABLE table_name DROP (job varchar2(10));</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-13" value="option-3" checked>
-    <label for="option-3"><code>ALTER TABLE table_name DROP COLUMN (job);</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-13" value="option-4" onclick="return false;">
-    <label for="option-4"><code>ALTER TABLE table_name MODIFY (job varchar2(10));</code></label>
-</div>
+- [ ] ALTER TABLE table_name DROP (job);
+- [ ] ALTER TABLE table_name DROP (job varchar2(10));
+- [x] ALTER TABLE table_name DROP COLUMN (job);
+- [ ] ALTER TABLE table_name MODIFY (job varchar2(10));
 
 ---
 
@@ -345,20 +215,10 @@ Which of the following statement will remove the column JOB from the table ?
 
 Which of the following command is used to see the structure of a table ?
 
-
-<div id="Question-14">
-    <input type="radio" id="option-1" name="Question-14" value="option-1" onclick="return false;">
-    <label for="option-1"><code>SELECT</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-14" value="option-2" onclick="return false;">
-    <label for="option-2"><code>UPDATE</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-14" value="option-3" checked>
-    <label for="option-3"><code>DESCRIBE</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-14" value="option-4" onclick="return false;">
-    <label for="option-4"><code>CREATE</code></label>
-</div>
+- [ ] SELECT
+- [ ] UPDATE
+- [x] DESCRIBE
+- [ ] CREATE
 
 ---
 
@@ -366,17 +226,7 @@ Which of the following command is used to see the structure of a table ?
 
 Which statement would add a column CGPA to a table Student which is already created
 
-
-<div id="Question-15">
-    <input type="radio" id="option-1" name="Question-15" value="option-1" onclick="return false;">
-    <label for="option-1"><code>ALTER TABLE Student ADD COLUMN (CGPA NUMBER(3,1));</code></label>
-    <br/>
-    <input type="radio" id="option-2" name="Question-15" value="option-2" onclick="return false;">
-    <label for="option-2"><code>ALTER TABLE Student  CGPA NUMBER(3,1);</code></label>
-    <br/>
-    <input type="radio" id="option-3" name="Question-15" value="option-3" checked>
-    <label for="option-3"><code>ALTER TABLE Student ADD (CGPA NUMBER(3,1));</code></label>
-    <br/>
-    <input type="radio" id="option-4" name="Question-15" value="option-4" onclick="return false;">
-    <label for="option-4"><code>ADD ALTER TABLE Student CGPA NUMBER(3,1);</code></label>
-</div>
+- [ ] ALTER TABLE Student ADD COLUMN (CGPA NUMBER(3,1));
+- [ ] ALTER TABLE Student  CGPA NUMBER(3,1);
+- [x] ALTER TABLE Student ADD (CGPA NUMBER(3,1));<
+- [ ] ADD ALTER TABLE Student CGPA NUMBER(3,1);
