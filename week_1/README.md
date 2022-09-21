@@ -2,13 +2,14 @@
 
 - If we want to setup schema then we use DDL (or) If we want to modify/update the existing schema we use DDL.
 - The main commands of this category are as follows:
-    > [**CREATE**]( #CREATE "goto CREATE section")
+
+    > [**CREATE**]( #create "goto CREATE section")
     >
-    > [**ALTER**]( #ALTER "goto ALTER section")
+    > [**ALTER**]( #alter "goto ALTER section")
     >
-    > [**DROP**]( #DROP "goto DROP section")
+    > [**DROP**]( #drop "goto DROP section")
     >
-    > [**TRUNCATE**]( #TRUNCATE "goto TRUNCATE section")
+    > [**TRUNCATE**]( #truncate "goto TRUNCATE section")
 
 ## CREATE
 
@@ -62,17 +63,17 @@ DESC <table_name>
 - Constraint is a rule/restriction.
 - Quality of the data i.e., **Data Integrity** is described by thess constraints.
    
-    > - [NOT NULL](#not-null "goto NOT NULL")
+    > - [NOT NULL](#not-null- "goto NOT NULL")
     >
-    > - [UNIQUE](#unique "goto UNIQUE")
+    > - [UNIQUE](#unique- "goto UNIQUE")
     >
-    > - [PRIMARY KEY](#primary-key "goto PRIMARY KEY")
+    > - [PRIMARY KEY](#primary-key- "goto PRIMARY KEY")
     >
-    > - [DEFAULT](#default "goto DEFAULT")
+    > - [DEFAULT](#default- "goto DEFAULT")
     >
-    > - [CHECK](#check "goto CHECK")
+    > - [CHECK](#check- "goto CHECK")
     >
-    > - [FOREIGEN KEY](#foreigen-key "goto FOREIGEN KEY")
+    > - [FOREIGEN KEY](#foreigen-key- "goto FOREIGEN KEY")
 
 #### NOT NULL :
 
