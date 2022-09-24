@@ -189,17 +189,6 @@ In SQL, which command(s) is(are) used to change a table's storage characteristic
 
 ---
 
-### Question 12 :
-
-In SQL, which command(s) is(are) used to change a table's storage characteristics ?
-
-- [ ] ALTER TABLE
-- [x] MODIFY TABLE
-- [ ] CHANGE TABLE
-- [ ] All of the Mentioned
-
----
-
 ### Question 13 :
 
 Which of the following statement will remove the column JOB from the table ?
