@@ -1,4 +1,4 @@
-# Data Definition Language (DDL) Commands (Week - 1)
+# Data Definition Language (DDL) Commands
 
 - If we want to setup schema then we use DDL (or) If we want to modify/update the existing schema we use DDL.
 - The main commands of this category are as follows:
