@@ -1,0 +1,10 @@
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (201,'Sam','N','sam@gmail.com');
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (202,'Ram','D','DeeRam@gmail.com');
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (203,'Pavan','K','pavan459@gmail.com');
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (204,'Sita','P','sita2001@gmail.com');
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (205,'Gita','V','artistno1@gmail.com');
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (206,'Sai Kumar','B','Kumarrocks@hotmail.com');
+INSERT INTO Customers (customer_id,first_name,last_name,email) VALUES (207,'Sumanth','P','single4life@gmail.com');
+DELETE FROM Customers WHERE customer_id = 204;
+DELETE FROM Customers WHERE customer_id = 206;
+SELECT customer_id FROM Customers;
