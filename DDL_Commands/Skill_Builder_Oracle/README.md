@@ -11,9 +11,7 @@ Write a query to create  a table `"members"` and print its description.
 ***Hint:** Refer to the table for the field names and the data type of the table* 
 
 <div align="center">
-    <a href="../src/Q1.png" target="_blank" title="View image" >
-        <img src="../src/Q1.png" alt="" title="Question 1" />
-    </a>
+    <img src="../src/SB_Q1.png" alt="" title="Question 1" />
 </div>
 
 - **Note**:
@@ -52,9 +50,7 @@ Refer to the existing table DLL below.
 Existing Table DDL:
 
 <div align="center">
-    <a href="../src/Q2.png" target="_blank" title="View image" >
-        <img src="../src/Q2.png" alt="" title="Question 2" />
-    </a>
+    <img src="../src/SB_Q2.png" alt="" title="Question 2" />
 </div>
 
 > **The required table is created in the backend.**
@@ -154,9 +150,7 @@ The artists table is **already created** with the `primary key` as id.
   - define all the columns with `NOT NULL` condition
 
 <div align="center">
-    <a href="../src/Q5.png" target="_blank" title="View image" >
-        <img src="../src/Q5.png" alt="" title="Question 5" />
-    </a>
+    <img src="../src/SB_Q5.png" alt="" title="Question 5" />
 </div>
 
 ##### Expected Input / Output:
