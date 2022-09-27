@@ -20,7 +20,7 @@ Which of the following is the correct statement used to remove rows from the "li
 - [ ] remove from library
 - [ ] drop from library
 - [ ] update from library
-- [ ] delete from library
+- [x] delete from library
 
 ---
 
@@ -72,8 +72,8 @@ Which of the following statement(s) is/are true for `UPDATE` in SQL ?
 
 - [x] You can update only a single table using `UPDATE` command
 - [ ] You can update multiple tables using `UPDATE` command
-- [x] In `UPDATE` command, you must list what columns to update with their values ( seperated by commas )
-- [ ] To update multiple targeted records, you need to specify `UPDATE` command using `WHERE` clause
+- [ ] In `UPDATE` command, you must list what columns to update with their values ( seperated by commas )
+- [x] To update multiple targeted records, you need to specify `UPDATE` command using `WHERE` clause
 
 ---
 
@@ -252,7 +252,7 @@ What will happen if we try to execute the following 2 SQL statements ?
 
 - [ ] Both (i) and (ii) will fail
 - [ ] (i) will fail but (ii) will succeed
-- [ ] (i) will succeed but (ii) will fail
+- [x] (i) will succeed but (ii) will fail
 - [ ] Both (i) and (ii) will succeed
 
 ---
