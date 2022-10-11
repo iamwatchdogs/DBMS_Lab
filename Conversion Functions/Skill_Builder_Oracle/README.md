@@ -53,3 +53,56 @@ Input 1                                   Output 1
 
                                     5 rows selected. 
 ```
+
+---
+
+### Question 2 :
+
+Write a sql to display the employee details and convert the date into `(dd-mm-year)`
+
+**Table** :Employee
+```sql
++-------------+------+-------
+
+| Column Name |   Type   |
+
++-------------+------+-------
+
+| Id          | int      |
+
+|Name         | varchar2 |
+
+|Joining_Date | varchar2 |
+
+| salary      | int      |
+
++-------------+------+-------
+```
+
+>> id is the primary key column for this table.
+>
+>> Each row of this table contains information about the salary of an employee.
+
+```
+Input format
+      No console input.
+
+Output format
+      The output should have the below header.
+
+            NAME  JOINING_DATE  SALARY
+
+Sample testcases:-
+
+Input 1                                   Output 1
+
+                                    NAME    JOINING_DATE    SALARY 
+                              __________ _______________ _________ 
+                              Steve      03-JAN-20          150000 
+                              Micheal    10-JAN-20          250000 
+                              Scott      20-MAY-20          500000 
+                              Sid        12-JUN-20          650000 
+                              Tom        21-AUG-20          650000 
+
+                                       5 rows selected. 
+```
