@@ -57,3 +57,59 @@ Input 1                       Output 1
 
                               5 rows selected. 
 ```
+
+---
+
+### Question 2:
+
+Write a SQL query to display the employee details and Number of months between joiningdate and lastworkingdate
+
+**Table**: Employee
+```sql
++-------------+------+-------
+
+| Column Name     |  Type   |
+
++-------------+------+-------
+
+| id              | int     |
+
+|Name             | varchar |
+
+|Joining_Date     | Date    |
+
+|salary           | int     |
+
+|LastworkingDate  | Date    |
+
++-------------+------+-------
+```
+
+
+>> id is the primary key column for this table.
+>
+>> Each row of this table contains information about the salary of an employee.
+
+```
+Input format
+      No console input.
+
+Output format
+      The output will have the below header.
+
+   NAME  JOINING_DATE  LASTWORKINGDATE  NUMBERO
+
+Sample testcases:-
+
+Input 1                                               Output 1
+
+                                    NAME    JOINING_DATE    LASTWORKINGDATE    NUMBERO 
+                              __________ _______________ __________________ __________ 
+                              Steve      03-JAN-20       15-AUG-22                  31 
+                              Micheal    10-JAN-20       20-FEB-22                  25 
+                              Scott      20-MAY-20       17-APR-21                  10 
+                              Sid        12-JUN-20       19-DEC-21                  18 
+                              Tom        21-AUG-20       10-NOV-20                   2 
+
+                                                   5 rows selected. 
+```
