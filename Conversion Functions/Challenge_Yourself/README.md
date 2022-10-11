@@ -113,3 +113,60 @@ Input 1                                               Output 1
 
                                                    5 rows selected. 
 ```
+
+---
+
+### Question 3 :
+
+Write a SQL query to display the name and last 4 characters of name in reversely.
+
+
+**TABLE**:Employee
+```sql
++-------------+------+-------
+
+| Column Name     |  Type   |
+
++-------------+------+-------
+
+| id              | int     |
+
+|Name             | varchar |
+
+|Joining_Date     | Date    |
+
+|salary           | int     |
+
++-------------+------+-------
+```
+
+
+>> id is the primary key column for this table.
+>
+>> Each row of this table contains information about the salary of an employee.
+
+```
+Input format
+      No console input.
+
+Output format
+      The output will print the details below header.
+
+                  NAME  POSITION
+
+
+Sample testcases:-
+
+Input 1
+                                      Output 1
+
+                                    NAME    POSITION 
+                              ___________ ___________ 
+                              Benjamin    nimaj       
+                              Jonathan    nahta       
+                              Nicholas    saloh       
+                              Leonardo    odran       
+                              Jeremiah    haime       
+
+                                    5 rows selected.
+```
