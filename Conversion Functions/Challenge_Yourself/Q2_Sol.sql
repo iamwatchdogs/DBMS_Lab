@@ -1,0 +1,5 @@
+SELECT NAME,JOINING_DATE,LASTWORKINGDATE,FLOOR(MONTHS_BETWEEN(LASTWORKINGDATE,JOINING_DATE)) "NUMBERO" FROM Employee;
+
+------------------------------------------------------- OR ---------------------------------------------------------------
+
+-- SELECT NAME,JOINING_DATE,LASTWORKINGDATE,FLOOR(ABS(MONTHS_BETWEEN(JOINING_DATE,LASTWORKINGDATE))) "NUMBERO" FROM Employee;
