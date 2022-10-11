@@ -158,3 +158,55 @@ Input 1                                         Output 1
 
                                           5 rows selected.
 ```
+
+---
+
+### Question 4 :
+
+Write a SQL query to find the position of 'e' in each employeeName
+
+**Table**: Employee
+```sql
++-------------+------+-------
+
+| Column Name |   Type   |
+
++-------------+------+-------
+
+| id          | int      |
+
+|Name         | varchar2 |
+
+|Joining_Date | varchar2 |
+
+| salary      | int      |
+
++-------------+------+-------
+```
+
+>> id is the primary key column for this table.
+>
+>> Each row of this table contains information about the salary of an employee.
+
+```
+Input format
+      No console input.
+
+Output format
+      The output should have the below header.
+
+            NAME  POSITION
+
+Sample testcases:-
+Input 1                                   Output 1
+
+                                          NAME    POSITION 
+                              ________________ ___________ 
+                              Steve                      3 
+                              Micheal                    5 
+                              Chris Pratt                0 
+                              Ryan Reynolds              7 
+                              Robert Downey              4 
+
+                                      5 rows selected. 
+```
