@@ -3,7 +3,7 @@
 ---
 <div align="center">
   
-  <p>Welcome to [DBMS Lab Repo](https://github.com/REC-CSE-LAB/DBMS_Lab) !!!... </p>
+  <p>Welcome to DBMS Lab Repo !!!... </p>
   <p>Feel free to use this repo for <b>Learning Purpose</b> and If you want to contribute to this repo you're welcome to open a PR.</p>
 
 <br />
