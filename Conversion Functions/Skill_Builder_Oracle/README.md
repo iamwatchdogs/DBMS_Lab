@@ -106,3 +106,55 @@ Input 1                                   Output 1
 
                                        5 rows selected. 
 ```
+
+---
+
+### Question 3 :
+
+Write a SQL query to display the name, last character of employee name, and Salary.
+
+Tale Name:Employee
+```sql
++-------------+------+-------
+
+| Column Name |   Type   |
+
++-------------+------+-------
+
+| Id          | int      |
+
+|Name         | varchar2 |
+
+|Joining_Date | varchar2 |
+
+| salary      | int      |
+
++-------------+------+-------
+```
+
+>> id is the primary key column for this table.
+>
+>> Each row of this table contains information about the salary of an employee.
+
+```
+Input format
+All Records are Prepopulated
+
+Output format
+The output should have the below header.
+
+ NAME  LASTCHARACTER  SALARY 
+
+Sample testcases
+Input 1                                         Output 1
+
+                                          NAME    LASTCHARACTER    SALARY 
+                              ________________ ________________ _________ 
+                              Steve            e                   150000 
+                              Micheal          l                   250000 
+                              Chris Pratt      t                   500000 
+                              Ryan Reynolds    s                   650000 
+                              Robert Downey    y                   650000 
+
+                                          5 rows selected.
+```
