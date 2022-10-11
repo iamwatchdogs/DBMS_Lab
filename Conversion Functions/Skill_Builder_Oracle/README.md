@@ -210,3 +210,58 @@ Input 1                                   Output 1
 
                                       5 rows selected. 
 ```
+
+---
+
+### Question 5 :
+
+Write a SQL query to display the employee details and Month of Joining.
+
+**Table**: Employee
+```sql
++-------------+------+-------
+
+| Column Name    |   Type  |
+
++-------------+------+-------
+
+| Id             | int     |
+
+|Name            | varchar |
+
+|Joining_Date    | Date    |
+
+|salary          | int     |
+
+|LastworkingDate | Date    |
+
++-------------+------+-------
+```
+
+>> id is the primary key column for this table.
+>
+>> Each row of this table contains information about the salary of an employee.
+
+```
+Input format
+      No console input
+
+Output format
+      The output should have the below header.
+
+        NAME  JOINING_DATE  JOINING_MONTH 
+
+Sample testcases:-
+
+Input 1                                         Output 1
+
+                                    NAME    JOINING_DATE    JOINING_MONTH 
+                              __________ _______________ ________________ 
+                              Steve      03-JAN-20                      1 
+                              Micheal    10-JAN-20                      1 
+                              Scott      20-MAY-20                      5 
+                              Sid        12-JUN-20                      6 
+                              Tom        21-AUG-20                      8 
+
+                                          5 rows selected. 
+```
