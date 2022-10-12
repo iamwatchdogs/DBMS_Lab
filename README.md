@@ -1,4 +1,5 @@
-# [DBMS_Lab](https://github.com/REC-CSE-LAB/DBMS_Lab)
+<!-- # [DBMS_Lab](https://github.com/REC-CSE-LAB/DBMS_Lab) -->
+![DBMS_Lab](https://user-images.githubusercontent.com/112816535/195247013-4f1a9766-e9b5-45e7-9606-c59e2afc41ce.png)
 
 ---
 <div align="center">
@@ -17,7 +18,7 @@
   
  <br />
   
-  <p>Happy Learning</p>
+  <p>Happy Learning...</p>
     
 </div>
 
