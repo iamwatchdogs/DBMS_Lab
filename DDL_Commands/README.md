@@ -11,6 +11,66 @@
     >
     > [**TRUNCATE**]( #truncate "goto TRUNCATE section")
 
+---
+
+## Data Types:
+
+Before learning DDL Commmands, it's important to know some datatypes which we will be using in the SQL.
+Some of the datatypes in SQL are:
+
+- [CHAR](#charsize "goto CHAR section")
+- [VARCHAR2](#varchar2size "goto VARCHAR2 section")
+- [NUMBER](#number "goto NUMBER section")
+- [Date](#date "goto Date section")
+- [BLOB](#blob "goto BLOB section")
+- [CLOB](#clob "goto CLOB section")
+- [BFILE](#bfile "goto BFILE section")
+
+### CHAR(SIZE):
+- It is used to store fixed length character strings.
+- For fixed length strings, a shorter string is padded with blank characters to the right. 
+- `CHAR` takes a maximum size of 2000 bytes.
+
+> Usage:
+```sql
+varname CHAR (10)
+```
+
+### VARCHAR2(SIZE):
+- It is used to store variable length character strings.
+- When we use `VARCHAR2` Padded blank spaces are ignored and only the total numbers of characters or memory needed for the string are used.
+- `VARCHAR2` takes a maximum size of 4000 bytes.
+
+> Usage:
+```sql
+varname VARCHAR2 (10)
+```
+
+### NUMBER
+- `NUMBER` data types are used to store numbers of various sizes like `INTEGER` and floating-point (real) numbers of various precision (`FLOAT` or `REAL`).
+- A floating point value can be specified with Number data type in the following way.
+    > `NUMBER (Precision, Scale)`.
+    >> Where precision is the total number of places or digits occupied by the floating point value and scale is the number of digits after the decimal point.
+
+> Usage:
+```sql
+varname NUMBER (3,2)
+```
+
+### Date:
+- It is used to store dates and time information.
+
+### BLOB:
+- It is used to store images, audio files and video files.
+
+### CLOB:
+- It is used to store text files.
+
+### BFILE:
+- It is used to store binary files and executable files etc.,
+
+---
+
 ## CREATE
 
 - It is used to create any Orcale databse object like Table, Veiw, Trigger, Index, User, e.t.c
