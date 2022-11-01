@@ -118,10 +118,20 @@ CREATE TABLE Student (
 >
 >> Table MEMBERS created.
 
-- To **review** the Table created, Use
+<br/>
+
+---
+
+> **Note**
+>
+>> To **review** the Table created, Use
 ```sql
 DESC <table_name>
 ```
+
+---
+
+<br/>
 
 ### Integrity Constraints :
 
@@ -349,4 +359,9 @@ CREATE TABLE employee
     CONSTRAINT fc1 FOREIGN KEY(deptno) REFERENCES department(deptno) ON UPDATE CASCADE
 );
 ```
+<br/>
+
+---
+
+<br/>
 
