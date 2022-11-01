@@ -10,6 +10,12 @@ Write a query to find 3 lowest-paid employees without using the LIMIT/TOP functi
 Return complete information of the employees
 Sort the output by descending order of their salary.
 
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/49478000/199287479-b8509c1f-3f5f-48fb-ad89-28af241a17f5.png)
+    
+</div>
+
 > **Note** :
 >
 > - Table names are case-sensitive.
@@ -47,6 +53,12 @@ Write a SQL query to find the third highest-paid Employee without using the LIMI
 Use Correlated Subquery Concept.
 Return the Empno, Ename, and Salary of the employees.
 
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/199312342-46da0719-88dc-494b-8862-6a5d10a1ed1f.png)
+    
+</div>
+
 > **Note** :
 >
 > - Table names are case-sensitive.
@@ -54,6 +66,7 @@ Return the Empno, Ename, and Salary of the employees.
 > - Follow the output header as given in the Output Format section.
 >
 > - The required input tables are created and populated in the backend.
+=
 
 ```
 Input format
@@ -83,6 +96,12 @@ Use Correlated Subquery concept.
 
 Return Employee Number, Employee Name, Job, Salary
 Sort the output by ascending order of Employee Number
+
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/199312393-b9e5d68c-37ce-4851-989b-82adfca415cf.png)
+    
+</div>
 
 > **Note** :
 >
@@ -124,6 +143,12 @@ Write a query to find 3 lowest-paid employees without using the LIMIT/TOP functi
 Return complete information of the employees
 Sort the output by descending order of their salary.
 
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/199312459-dcafa6a3-a9ee-4b01-8671-481cb202ddd1.png)  
+    
+</div>
+
 > **Note** :
 >
 > - Table names are case-sensitive.
@@ -162,6 +187,12 @@ Write a query to find the managers who handle the maximum number of Employees
 *(Manager column in Employee table refers to Employee number of manager whom that particular employee reports to)*
 
 Return Employee number, Employee Name, Department Name of the managers who handle the most number of employees along with the count of employees.
+
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/199312500-5995676c-a9b6-4aed-b382-b571e4be3df6.png)
+    
+</div>
 
 > **Note** :
 >
