@@ -25,36 +25,35 @@ Print the average along with the department number.
 
 ```
 Input format
-No console input.
+  No console input.
 
 Output format
-The output should have the below header: (case sensitive)
+  The output should have the below header: (case sensitive)
+              AVERAGE, DEPTNO
 
-AVERAGE, DEPTNO
+Sample testcases:-
 
-Sample testcases
-Input 1
-Output 1
+Input 1                            Output 1
 
-   AVERAGE    DEPTNO 
-__________ _________ 
-   22856.5      1001 
+                                 AVERAGE    DEPTNO 
+                              __________ _________ 
+                                 22856.5      1001 
 
-1 row selected. 
-
-
-   AVERAGE    DEPTNO 
-__________ _________ 
-   17897.5      2001 
-
-1 row selected. 
+                              1 row selected. 
 
 
-                                     AVERAGE    DEPTNO 
-____________________________________________ _________ 
-   6627.333333333333333333333333333333333333      3001 
+                                 AVERAGE    DEPTNO 
+                              __________ _________ 
+                                 17897.5      2001 
 
-1 row selected. 
+                              1 row selected. 
+
+
+                                                                   AVERAGE    DEPTNO 
+                              ____________________________________________ _________ 
+                                 6627.333333333333333333333333333333333333      3001 
+
+                              1 row selected. 
 ```
 
 ### Question 2 :
@@ -80,36 +79,35 @@ Print the minimum and maximum salary along with the department number.
 
 ```
 Input format
-No console input.
+  No console input.
 
 Output format
-The output should have the below header: (case sensitive)
+  The output should have the below header: (case sensitive)
+              MINSAL, MAXSAL, DEPTNO
 
-MINSAL, MAXSAL, DEPTNO
+Sample testcases:-
 
-Sample testcases
-Input 1
-Output 1
+Input 1                                   Output 1
 
-   MINSAL    MAXSAL    DEPTNO 
-_________ _________ _________ 
-    15226     26000      1001 
+                                 MINSAL    MAXSAL    DEPTNO 
+                              _________ _________ _________ 
+                                  15226     26000      1001 
 
-1 row selected. 
-
-
-   MINSAL    MAXSAL    DEPTNO 
-_________ _________ _________ 
-     9705     26090      2001 
-
-1 row selected. 
+                              1 row selected. 
 
 
-   MINSAL    MAXSAL    DEPTNO 
-_________ _________ _________ 
-     1289     12013      3001 
+                                 MINSAL    MAXSAL    DEPTNO 
+                              _________ _________ _________ 
+                                   9705     26090      2001 
 
-1 row selected. 
+                              1 row selected. 
+
+
+                                 MINSAL    MAXSAL    DEPTNO 
+                              _________ _________ _________ 
+                                   1289     12013      3001 
+
+                              1 row selected. 
 ```
 
 ### Question 3 :
@@ -135,34 +133,33 @@ Print the count along with the department number.
 
 ```
 Input format
-No console input.
+  No console input.
 
 Output format
-The output should have the below header: (case sensitive)
+  The output should have the below header: (case sensitive)
+              COUNTEMP, DEPTNO
 
-COUNTEMP, DEPTNO
+Sample testcases:-
 
-Sample testcases
-Input 1
-Output 1
+Input 1                              Output 1
 
-   COUNTEMP    DEPTNO 
-___________ _________ 
-          4      1001 
+                                 COUNTEMP    DEPTNO 
+                              ___________ _________ 
+                                        4      1001 
 
-1 row selected. 
-
-
-   COUNTEMP    DEPTNO 
-___________ _________ 
-          2      2001 
-
-1 row selected. 
+                              1 row selected. 
 
 
-   COUNTEMP    DEPTNO 
-___________ _________ 
-          3      3001 
+                                 COUNTEMP    DEPTNO 
+                              ___________ _________ 
+                                        2      2001 
 
-1 row selected. 
+                              1 row selected. 
+
+
+                                 COUNTEMP    DEPTNO 
+                              ___________ _________ 
+                                        3      3001 
+
+                              1 row selected. 
 ```
