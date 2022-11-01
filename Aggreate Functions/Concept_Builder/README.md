@@ -14,7 +14,7 @@ GROUP BY branch_id
 ```
 
 - [ ] The query is syntactically correct but gives the wrong answer.
-- [ ] The query is syntactically wrong.
+- [x] The query is syntactically wrong.
 - [ ] The query is syntactically correct and gives the correct answer.
 - [ ] The query contains one or more wrongly named clauses.
 
@@ -22,7 +22,7 @@ GROUP BY branch_id
 
 We apply the aggregate function to a group of sets of tuples using the _______ clause.
 
-- [ ] group by
+- [x] group by
 - [ ] group
 - [ ] group set
 - [ ] group attribute
@@ -41,7 +41,7 @@ WHERE depositor.account_number = account.account_number
 
 - [ ] The having clause checks whether the query result is true or not.
 - [ ] The having clause does not check for any condition.
-- [ ] The having clause allows only those tuples that have average balance 10000.
+- [x] The having clause allows only those tuples that have average balance 10000.
 - [ ] None of the listed options.
 
 ### Question 4 :
@@ -93,14 +93,14 @@ If we do want to eliminate duplicates, we use the keyword __________in the aggre
 
 Which of the following should be used to find all the courses taught in the Fall 2009 semester but not in the Spring 2010 semester?
 
-- [ ] *option 1*
+- [x] *option 1*
 ```sql
-    SELECT DISTINCT course id
+    SELECT DISTINCT course_id
     FROM SECTION 
     WHERE 
         semester = ’Fall’ AND
         YEAR= 2009 AND
-        course id NOT IN (  SELECT course id
+        course_id NOT IN (  SELECT course_id
                             FROM SECTION
                             WHERE 
                                 semester = ’Spring’ AND
@@ -161,7 +161,7 @@ Select count ( ____ ID) from teaches where semester = "ABC" and year = 2010;
 ```
 If we do want to eliminate duplicates, we use the keyword______in the aggregate expression.
 
-- [ ] DISTINCT
+- [x] DISTINCT
 - [ ] COUNT
 - [ ] AVG
 - [ ] Primary key
