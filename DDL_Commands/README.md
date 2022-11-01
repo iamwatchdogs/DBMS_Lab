@@ -1,15 +1,18 @@
 # Data Definition Language (DDL) Commands
 
+- Data definition language (DDL) describes the portion of SQL that creates, alters, and deletes database objects.
 - If we want to setup schema then we use DDL (or) If we want to modify/update the existing schema we use DDL.
 - The main commands of this category are as follows:
 
-    > [**CREATE**]( #create "goto CREATE section")
+    > - [**CREATE**]( #create "goto CREATE section")
     >
-    > [**ALTER**]( #alter "goto ALTER section")
+    > - [**ALTER**]( #alter "goto ALTER section")
     >
-    > [**DROP**]( #drop "goto DROP section")
+    > - [**DROP**]( #drop "goto DROP section")
     >
-    > [**TRUNCATE**]( #truncate "goto TRUNCATE section")
+    > - [**TRUNCATE**]( #truncate "goto TRUNCATE section")
+
+- In this Documentation, we're also going too discuss few [Integrity Constraints](#integrity-constraints- "goto integrity constraints section") in it's section.
 
 ---
 
@@ -71,6 +74,8 @@ varname NUMBER (3,2)
 
 ---
 
+<br/>
+
 ## CREATE
 
 - It is used to create any Orcale databse object like Table, Veiw, Trigger, Index, User, e.t.c
@@ -118,7 +123,7 @@ CREATE TABLE Student (
 DESC <table_name>
 ```
 
-### integrity Constraints :
+### Integrity Constraints :
 
 - Constraint is a rule/restriction.
 - Quality of the data i.e., **Data Integrity** is described by thess constraints.
