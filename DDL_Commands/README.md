@@ -268,6 +268,85 @@ CREATE TABLE Student (
     CONSTRAINT cck_2 CHECK (age BETWEEN 18 AND 50),
 );
 ```
-<!-- 
+
 ### FOREIGEN KEY :
- -->
+
+- Foreign key is generally used to establish the link between two tables.
+- Foreign key is always used with `REFERENCES` Keyword.
+- A foreign key is an attribute or combination of attributes present in one relation that refers to another attribute or combination of attributes usually the primary key in another relation.
+
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/49478000/199224623-06dd1d24-12d3-4be8-bbd7-cfd9145d732f.png)
+
+</div>
+
+> example :
+>
+>> Column Level :
+
+```sql
+CREATE TABLE employee
+(
+    ssn NUMBER(4) PRIMARY KEY,
+    ename VARCHAR2(10) NOT NULL,
+    salary NUMBER(10,2) CHECK(salary>0),
+    deptno NUMBER(2) REFERENCES department(deptno),
+    age NUMBER(3) CHECK(age BETWEEN 18 AND 50)
+);
+```
+
+>> Table Level :
+
+```sql
+CREATE TABLE employee
+(
+    ssn NUMBER(4), ename VARCHAR2(10), salary NUMBER(10,2),
+    deptno NUMBER(2), age NUMBER(3),
+    CONSTRAINT pk1 PRIMARY KEY(ssn),
+    CONSTRAINT cck1 CHECK(salary>0),
+    CONSTRAINT fc1 FOREIGN KEY(deptno) REFERENCES department(deptno),
+    CONSTRAINT cck2 CHECK(age BETWEEN 18 AND 50)
+);
+```
+
+#### Maintaining referential integrity:
+
+- After creating a primary key for a relation/table by referring another table *( or you can say throught foreign key )*, we have to make sure the changes done in the refered table is in sync with the refered table.
+- We can maintain the referential integrity in two ways, and they are:
+    -  [ON DELETE CASCADE option](#on-delete-cascade-option "goto on delete cascade section")
+    -  [ON UPDATE CASCADE option](#on-update-cascade-option "goto on update cascade section")
+
+##### ON DELETE CASCADE option:
+
+If we use ON DELETE CASCADE option, ORACLE permits deletions of referenced key values in the parent table and automatically deletes dependent rows in the child table to maintain referential integrity.
+
+> example :
+
+```sql
+CREATE TABLE employee
+(
+    ssn NUMBER(4),
+    deptno NUMBER(2), age NUMBER(3),
+    CONSTRAINT pk1 PRIMARY KEY(ssn),
+    CONSTRAINT fc1 FOREIGN KEY(deptno) REFERENCES department(deptno) ON DELETE CASCADE
+);
+```
+
+
+##### ON UPDATE CASCADE option:
+
+If we use ON UPDATE CASCADE option, ORACLE permits updation of referenced key values in the parent table and automatically updates dependent rows in the child table to maintain referential integrity.
+
+> example :
+
+```sql
+CREATE TABLE employee
+(
+    ssn NUMBER(4),
+    deptno NUMBER(2), age NUMBER(3),
+    CONSTRAINT pk1 PRIMARY KEY(ssn),
+    CONSTRAINT fc1 FOREIGN KEY(deptno) REFERENCES department(deptno) ON UPDATE CASCADE
+);
+```
+
