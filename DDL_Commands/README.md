@@ -14,7 +14,11 @@
 
 - In this Documentation, we're also going too discuss few [Integrity Constraints](#integrity-constraints- "goto integrity constraints section") in it's section.
 
+<br/>
+
 ---
+
+<br/>
 
 ## Data Types:
 
@@ -29,6 +33,8 @@ Some of the datatypes in SQL are:
 - [CLOB](#clob "goto CLOB section")
 - [BFILE](#bfile "goto BFILE section")
 
+<br/>
+
 ### CHAR(SIZE):
 - It is used to store fixed length character strings.
 - For fixed length strings, a shorter string is padded with blank characters to the right. 
@@ -38,6 +44,8 @@ Some of the datatypes in SQL are:
 ```sql
 varname CHAR (10)
 ```
+
+<br/>
 
 ### VARCHAR2(SIZE):
 - It is used to store variable length character strings.
@@ -49,6 +57,8 @@ varname CHAR (10)
 varname VARCHAR2 (10)
 ```
 
+<br/>
+
 ### NUMBER
 - `NUMBER` data types are used to store numbers of various sizes like `INTEGER` and floating-point (real) numbers of various precision (`FLOAT` or `REAL`).
 - A floating point value can be specified with Number data type in the following way.
@@ -59,6 +69,8 @@ varname VARCHAR2 (10)
 ```sql
 varname NUMBER (3,2)
 ```
+
+<br/>
 
 ### Date:
 - It is used to store dates and time information.
@@ -72,6 +84,8 @@ varname NUMBER (3,2)
 ### BFILE:
 - It is used to store binary files and executable files etc.,
 
+<br/>
+
 ---
 
 <br/>
@@ -79,7 +93,8 @@ varname NUMBER (3,2)
 ## CREATE
 
 - It is used to create any Orcale databse object like Table, Veiw, Trigger, Index, User, e.t.c
-- Syntax:
+
+> Syntax:
 
 ```sql
 SQL> CREATE TABLE <table_name>
@@ -93,8 +108,12 @@ SQL> CREATE TABLE <table_name>
 );
 ```
 
+<br/>
+
 - DATATYPE is used specify the type of data which we are pulling/reteriving from the table.
 - This is called **Domain entigrity constraint**.
+
+<br/>
 
 > example :
 >
@@ -122,12 +141,19 @@ CREATE TABLE Student (
 
 ---
 
+<br/>
+
 > **Note**
 >
 >> To **review** the Table created, Use
+
+<br/>
+
 ```sql
 DESC <table_name>
 ```
+
+<br/>
 
 ---
 
@@ -150,6 +176,8 @@ DESC <table_name>
     >
     > - [FOREIGEN KEY](#foreigen-key- "goto FOREIGEN KEY")
 
+<br/>
+
 #### NOT NULL :
 
 - `NULL` is an undefined/unknown value or inapplication value that can be assigned to an attribute(column) of a table in database.
@@ -170,6 +198,8 @@ CREATE TABLE Student (
 >> Table Level :
 >>
 >>> Not Possible for `NOT NULL`.
+
+<br/>
 
 ### UNIQUE :
 
@@ -193,13 +223,15 @@ CREATE TABLE Student (
     CONSTRAINT uc_1 UNIQUE (sid)
 );
 
-/*------------- or ----------------*/
+--------------- or ----------------
 
 CREATE TABLE Student (
     sid VARCHAR2(20),
     UNIQUE (sid)
 );
 ```
+
+<br/>
 
 ### PRIMARY KEY :
 
@@ -231,6 +263,8 @@ CREATE TABLE Student (
 );
 ```
 
+<br/>
+
 ### DEFAULT :
 
 - `DEFAULT` keyword is used in SQL t assign a default value forr a given attribute(column) of a relation.
@@ -249,6 +283,8 @@ CREATE TABLE Student (
 >> Table Level :
 >>
 >>> Not possible
+
+<br/>
 
 ### CHECK :
 
@@ -278,6 +314,8 @@ CREATE TABLE Student (
     CONSTRAINT cck_2 CHECK (age BETWEEN 18 AND 50),
 );
 ```
+
+<br/>
 
 ### FOREIGEN KEY :
 
@@ -320,12 +358,16 @@ CREATE TABLE employee
 );
 ```
 
+<br/>
+
 #### Maintaining referential integrity:
 
 - After creating a primary key for a relation/table by referring another table *( or you can say throught foreign key )*, we have to make sure the changes done in the refered table is in sync with the refered table.
 - We can maintain the referential integrity in two ways, and they are:
     -  [ON DELETE CASCADE option](#on-delete-cascade-option "goto on delete cascade section")
     -  [ON UPDATE CASCADE option](#on-update-cascade-option "goto on update cascade section")
+
+<br/>
 
 ##### ON DELETE CASCADE option:
 
@@ -343,6 +385,7 @@ CREATE TABLE employee
 );
 ```
 
+<br/>
 
 ##### ON UPDATE CASCADE option:
 
@@ -359,6 +402,7 @@ CREATE TABLE employee
     CONSTRAINT fc1 FOREIGN KEY(deptno) REFERENCES department(deptno) ON UPDATE CASCADE
 );
 ```
+
 <br/>
 
 ---
@@ -391,6 +435,8 @@ The following are the keywords used,
 - [ENABLE/DISABLE/DROP](#enabledisabledrop "goto on edable/disable/drop section")
 - [RENAME](#rename "goto on rename section")
 
+<br/>
+
 ### MODIFY:
 
 This keyword is used to change the specification of existing column
@@ -401,7 +447,11 @@ This keyword is used to change the specification of existing column
 ALTER TABLE <table name> MODIFY
 (
     <col_name1> DATA_TYPE(WIDTH),
-    <col_name2> DATA_TYPE(WIDTH), ----- <col_nameN> DATA_TYPE(WIDTH)
+    <col_name2> DATA_TYPE(WIDTH),
+                .
+                .
+                .
+    <col_nameN> DATA_TYPE(WIDTH)
 );
 ```
 
@@ -413,15 +463,21 @@ ALTER TABLE <table name> MODIFY
 ALTER TABLE emp MODIFY ( ename VARCHAR2(20) );
 ```
 
+<br/>
+
 > **Note** :
 > 
 > It is not possible to reduce the size of the column less than the data size value.
+
+<br/>
 
 - Change the data type of a column.
 
 ```sql
 ALTER TABLE emp MODIFY ( ename CHAR(20) );
 ```
+
+<br/>
 
 ### ADD:
 
@@ -462,9 +518,13 @@ ALTER TABLE emp ADD
 );
 ```
 
+<br/>
+
 > **Note** :
 > 
 > To add a new column along with constraint the table must be empty.
+
+<br/>
 
 ### ENABLE/DISABLE/DROP:
 
@@ -480,6 +540,8 @@ CONSTRAINT <constraint_name>;
 - `DISABLE` -> is used to make the constraint inactive.
 - `ENABLE` -> is used to make the constraint active.
 - `DROP` -> is used to remove the constraint permanently.
+
+<br/>
 
 ### RENAME:
 
@@ -509,6 +571,8 @@ ALTER TABLE emp RENAME TO employee;
 RENAME emp TO employee;
 ```
 
+<br/>
+
 ## DROP:
 
 - It is used to drop the database object(Table, Trigger, Index…) of ORACLE database permanently.
@@ -525,11 +589,14 @@ DROP TABLE <table_name>;
 ```sql
 DROP TABLE emp;
 ```
+<br/>
 
 > **Note** :
 >
 > - Be careful while using `DROP` as it will delete the relation *including the data in it* from the database **permanently**.
 > - If you only wish to delete the data within the table, then use [`TRUNCATE`](#truncate "goto TRUNCATE section").
+
+<br/>
 
 ## TRUNCATE:
 
@@ -546,3 +613,27 @@ TRUNCATE TABLE <table_name>;
 ```sql
 TRUNCATE TABLE emp;
 ```
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+    
+--- The End of DDL Commands Module ---
+    
+</div>
+
+<br/>
+
+---
+
+<br/>
+    
+<div align="right">
+    
+[Goto NEXT Module ->](../DML_Commands "goto DML Commands")
+    
+</div>
