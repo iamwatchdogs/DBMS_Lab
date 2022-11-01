@@ -93,7 +93,7 @@ If we do want to eliminate duplicates, we use the keyword __________in the aggre
 
 Which of the following should be used to find all the courses taught in the Fall 2009 semester but not in the Spring 2010 semester?
 
-- [ ] 
+- [ ] *option 1*
 ```sql
     SELECT DISTINCT course id
     FROM SECTION 
@@ -107,19 +107,19 @@ Which of the following should be used to find all the courses taught in the Fall
                                 YEAR= 2010 );
 ```
 
-- [ ] 
+- [ ] *option 2*
 ```sql
     SELECT DISTINCT course_id 
     FROM instructor 
     WHERE name NOT IN (’Fall’, ’Spring’);
 ```
-- [ ] 
+- [ ] *option 3*
 ```sql
     SELECT course id 
     FROM SECTION 
     WHERE semester = 'Spring' AND YEAR= 2010);
 ```
-- [ ] 
+- [ ] *option 4*
 ```sql
     SELECT COUNT (DISTINCT ID) 
     FROM takes 
