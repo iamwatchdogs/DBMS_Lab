@@ -365,3 +365,146 @@ CREATE TABLE employee
 
 <br/>
 
+## ALTER:
+
+This command is used to change the specification of the column i.e., data type, width or constraints.
+
+> Basic ALTER Syntax:
+
+```sql
+ALTER TABLE <table name> KEYWORD
+(
+    <col_name1> DATA_TYPE(WIDTH),
+    <col_name2> DATA_TYPE(WIDTH), 
+                .
+                .
+                .
+    <col_nameN> DATA_TYPE(WIDTH)
+);
+```
+
+The command `ALTER` uses different keywords based on there purposes.
+The following are the keywords used,
+
+- [MODIFY](#modify "goto on modify section")
+- [ADD](#add "goto on add section")
+- [ENABLE/DISABLE/DROP](#enabledisabledrop "goto on edable/disable/drop section")
+- [RENAME](#rename "goto on rename section")
+
+### MODIFY:
+
+This keyword is used to change the specification of existing column
+
+> Syntax:
+
+```sql
+ALTER TABLE <table name> MODIFY
+(
+    <col_name1> DATA_TYPE(WIDTH),
+    <col_name2> DATA_TYPE(WIDTH), ----- <col_nameN> DATA_TYPE(WIDTH)
+);
+```
+
+- To increase/decrease the size of the column
+
+    > example:
+    
+```sql
+ALTER TABLE emp MODIFY ( ename VARCHAR2(20) );
+```
+
+> **Note** :
+> 
+> It is not possible to reduce the size of the column less than the data size value.
+
+- Change the data type of a column.
+
+```sql
+ALTER TABLE emp MODIFY ( ename CHAR(20) );
+```
+
+### ADD:
+
+- This keyword is used to add new columns to the existing table.
+- We can add new constraints to the columns of table.
+
+> Syntax:
+
+```sql
+ALTER TABLE <table name> ADD
+(
+    <col_name1> DATA_TYPE(WIDTH),
+    <col_name2> DATA_TYPE(WIDTH),
+                .
+                .
+                .
+    <col_nameN> DATA_TYPE(WIDTH)
+);
+```
+
+- Add a new column to a table.
+
+    > example:
+
+```sql
+ALTER TABLE emp ADD(remarks VARCHAR2(50);
+```
+
+- Add multiple columns to a table.
+
+    > example:
+
+```sql
+ALTER TABLE emp ADD
+(
+    presentAddr VARCHAR2(50),
+    permanentAddr VARCHAR2(50)
+);
+```
+
+> **Note** :
+> 
+> To add a new column along with constraint the table must be empty.
+
+### ENABLE/DISABLE/DROP:
+
+These keywords are used to change the constraint specification (or) to change the status of constraint.
+
+> Syntax:
+
+```sql
+ALTER TABLE <table_name> DISABLE/ENABLE/DROP 
+CONSTRAINT <constraint_name>;
+```
+
+- `DISABLE` -> is used to make the constraint inactive.
+- `ENABLE` -> is used to make the constraint active.
+- `DROP` -> is used to remove the constraint permanently.
+
+### RENAME:
+
+- `RENAME` is used to Change/rename the name of column and table.
+
+> Example:
+
+```sql
+ALTER TABLE emp
+RENAME COLUMN sal TO salary;
+```
+
+- we can also rename the tables using the keyword `RENAME`.
+- We can rename a Table in 2 ways and they are:
+    - Using `ALTER` keyword
+    - Using `RENAME` keyword directly.
+
+> Example 1: Using `ALTER` keyword.
+
+```sql
+ALTER TABLE emp RENAME TO employee;
+```
+
+> Example 2: Using `RENAME` keyword directly.
+
+```sql
+RENAME emp TO employee;
+```
