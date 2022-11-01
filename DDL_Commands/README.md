@@ -528,4 +528,21 @@ DROP TABLE emp;
 
 > **Note** :
 >
-> Be careful while using `DROP` as it will delete the relation *including the data in it* from the database **permanently**.
+> - Be careful while using `DROP` as it will delete the relation *including the data in it* from the database **permanently**.
+> - If you only wish to delete the data within the table, then use [`TRUNCATE`](#truncate "goto TRUNCATE section").
+
+## TRUNCATE:
+
+Unlike [DROP](#drop "goto DROP section") command, the `TRUNCATE` command deletes the data inside a table, but not the table itself.
+
+> Syntax:
+
+```sql
+TRUNCATE TABLE <table_name>;
+```
+
+> Example:
+
+```sql
+TRUNCATE TABLE emp;
+```
