@@ -508,3 +508,24 @@ ALTER TABLE emp RENAME TO employee;
 ```sql
 RENAME emp TO employee;
 ```
+
+## DROP:
+
+- It is used to drop the database object(Table, Trigger, Index…) of ORACLE database permanently.
+- This is quite similar to the [DROP](#enabledisabledrop "goto on edable/disable/drop section") which we have used in `ALTER` section. But, in the `ALTER` Section we're dropping the data in column-level.
+
+> Syntax:
+
+```sql
+DROP TABLE <table_name>;
+```
+
+> Example:
+
+```sql
+DROP TABLE emp;
+```
+
+> **Note** :
+>
+> Be careful while using `DROP` as it will delete the relation *including the data in it* from the database **permanently**.
