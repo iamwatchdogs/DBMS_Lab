@@ -8,9 +8,7 @@ write a query to display the passenger list who are all booking 'first" class fl
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/49478000/199340456-81df16fa-a6c3-4ffe-8ddd-c0534785045c.png)
-![image](https://user-images.githubusercontent.com/49478000/199340539-05dd87ad-af45-4b6c-b14b-bef75e2a69f5.png)
-![image](https://user-images.githubusercontent.com/49478000/199340576-a273c70c-45a6-4b2d-85f3-306af5a3c98f.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
   
 </div>
 
@@ -40,9 +38,7 @@ write a query to count the passenger list of booking status 'success'
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/49478000/199340456-81df16fa-a6c3-4ffe-8ddd-c0534785045c.png)
-![image](https://user-images.githubusercontent.com/49478000/199340539-05dd87ad-af45-4b6c-b14b-bef75e2a69f5.png)
-![image](https://user-images.githubusercontent.com/49478000/199340576-a273c70c-45a6-4b2d-85f3-306af5a3c98f.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
   
 </div>
 
@@ -72,9 +68,7 @@ write a query to count the passenger who is booking travel class 'economy'
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/49478000/199340456-81df16fa-a6c3-4ffe-8ddd-c0534785045c.png)
-![image](https://user-images.githubusercontent.com/49478000/199340539-05dd87ad-af45-4b6c-b14b-bef75e2a69f5.png)
-![image](https://user-images.githubusercontent.com/49478000/199340576-a273c70c-45a6-4b2d-85f3-306af5a3c98f.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
   
 </div>
 
@@ -105,9 +99,7 @@ write a query to display the female passenger information who is reserved a tick
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/49478000/199340456-81df16fa-a6c3-4ffe-8ddd-c0534785045c.png)
-![image](https://user-images.githubusercontent.com/49478000/199340539-05dd87ad-af45-4b6c-b14b-bef75e2a69f5.png)
-![image](https://user-images.githubusercontent.com/49478000/199340576-a273c70c-45a6-4b2d-85f3-306af5a3c98f.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
   
 </div>
 
@@ -138,9 +130,7 @@ write a query to display passenger list who are get travel agency discount>500
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/49478000/199340456-81df16fa-a6c3-4ffe-8ddd-c0534785045c.png)
-![image](https://user-images.githubusercontent.com/49478000/199340539-05dd87ad-af45-4b6c-b14b-bef75e2a69f5.png)
-![image](https://user-images.githubusercontent.com/49478000/199340576-a273c70c-45a6-4b2d-85f3-306af5a3c98f.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
   
 </div>
 
