@@ -131,34 +131,34 @@ Sample testcases:-
 
 Input 1:                                                                                            Output 1:
 
-                    AADHAAR    FIRSTNAME    LASTNAME    MOTHERNAME    FATHERNAME        SEX     BIRTHDAY    AGE    DISTRICTID         PHONE    DISTRICTID    LOCALITY      CITY          STATE       ZIP 
-            __________________ ____________ ___________ _____________ _____________ __________ ____________ ______ _____________ _____________ _____________ ___________ _________ ______________ _________ 
-            3591 4628 3661     Akash        Singh       Aishwarya     Bhavesh       M          16-FEB-84        37           234    9623412913           234 Andheri     mumbai    Maharashtra    400059    
-            7820 3429 4038     Shlok        Agarwal     Aparna        Girish        M          04-FEB-88        33           234    9722768470           234 Andheri     mumbai    Maharashtra    400059    
-            7367 4166 6818     Nicole       Dias        Juhi          Deepak        F          08-DEC-91        29           234    9913542379           234 Andheri     mumbai    Maharashtra    400059    
-            3552 8455 9830     Saima        Shaikh      Anushree      Bipin         F          02-DEC-75        45           234    9251125952           234 Andheri     mumbai    Maharashtra    400059    
-            5629 4547 8360     Aniket       Mali        Namrata       Aditya        M          30-AUG-77        43           234    9353628848           234 Andheri     mumbai    Maharashtra    400059    
-            9996 7085 3995     Bhavna       Wadhwani    Arpita        Mehul         F          18-MAY-86        34           234    9600223943           234 Andheri     mumbai    Maharashtra    400059    
-            6219 8659 3521     Harsh        Chougle     Rashmi        Akshat        M          25-APR-90        30           234    9978862736           234 Andheri     mumbai    Maharashtra    400059    
-            6179 3483 8162     Joey         Dsouza      Priyanka      Prakash       M          21-JUN-80        40           234    9533089508           234 Andheri     mumbai    Maharashtra    400059    
-            5307 8510 8738     Binita       Soni        Anjali        Aniket        F          04-FEB-92        29           234    9472486996           234 Andheri     mumbai    Maharashtra    400059    
-            4413 5402 5058     Vinit        Rajput      Sneha         Randhir       M          23-NOV-72        48           234    9254284523           234 Andheri     mumbai    Maharashtra    400059    
-            8392 3921 0192     Aditi        Kharat      Simran        Jitendra      F          06-JUN-48        72           234    9821009201           234 Andheri     mumbai    Maharashtra    400059    
-            5773 7940 7366     Dipti        Kumar       Gayatri       Dheeraj       F          13-JAN-98        23           235    9222325956           235 Hadapsar    Pune      Maharashtra    411013    
-            6169 5028 5641     Rashid       Khan        Indira        Abhay         M          17-OCT-76        44           235    9414321457           235 Hadapsar    Pune      Maharashtra    411013    
-            5698 6323 9187     Muskan       Gupta       Latika        Harmeet       F          14-JUL-90        30           235    9406269045           235 Hadapsar    Pune      Maharashtra    411013    
+                                        AADHAAR    FIRSTNAME    LASTNAME    MOTHERNAME    FATHERNAME        SEX     BIRTHDAY    AGE    DISTRICTID         PHONE    DISTRICTID    LOCALITY      CITY          STATE       ZIP 
+                                __________________ ____________ ___________ _____________ _____________ __________ ____________ ______ _____________ _____________ _____________ ___________ _________ ______________ _________ 
+                                3591 4628 3661     Akash        Singh       Aishwarya     Bhavesh       M          16-FEB-84        37           234    9623412913           234 Andheri     mumbai    Maharashtra    400059    
+                                7820 3429 4038     Shlok        Agarwal     Aparna        Girish        M          04-FEB-88        33           234    9722768470           234 Andheri     mumbai    Maharashtra    400059    
+                                7367 4166 6818     Nicole       Dias        Juhi          Deepak        F          08-DEC-91        29           234    9913542379           234 Andheri     mumbai    Maharashtra    400059    
+                                3552 8455 9830     Saima        Shaikh      Anushree      Bipin         F          02-DEC-75        45           234    9251125952           234 Andheri     mumbai    Maharashtra    400059    
+                                5629 4547 8360     Aniket       Mali        Namrata       Aditya        M          30-AUG-77        43           234    9353628848           234 Andheri     mumbai    Maharashtra    400059    
+                                9996 7085 3995     Bhavna       Wadhwani    Arpita        Mehul         F          18-MAY-86        34           234    9600223943           234 Andheri     mumbai    Maharashtra    400059    
+                                6219 8659 3521     Harsh        Chougle     Rashmi        Akshat        M          25-APR-90        30           234    9978862736           234 Andheri     mumbai    Maharashtra    400059    
+                                6179 3483 8162     Joey         Dsouza      Priyanka      Prakash       M          21-JUN-80        40           234    9533089508           234 Andheri     mumbai    Maharashtra    400059    
+                                5307 8510 8738     Binita       Soni        Anjali        Aniket        F          04-FEB-92        29           234    9472486996           234 Andheri     mumbai    Maharashtra    400059    
+                                4413 5402 5058     Vinit        Rajput      Sneha         Randhir       M          23-NOV-72        48           234    9254284523           234 Andheri     mumbai    Maharashtra    400059    
+                                8392 3921 0192     Aditi        Kharat      Simran        Jitendra      F          06-JUN-48        72           234    9821009201           234 Andheri     mumbai    Maharashtra    400059    
+                                5773 7940 7366     Dipti        Kumar       Gayatri       Dheeraj       F          13-JAN-98        23           235    9222325956           235 Hadapsar    Pune      Maharashtra    411013    
+                                6169 5028 5641     Rashid       Khan        Indira        Abhay         M          17-OCT-76        44           235    9414321457           235 Hadapsar    Pune      Maharashtra    411013    
+                                5698 6323 9187     Muskan       Gupta       Latika        Harmeet       F          14-JUL-90        30           235    9406269045           235 Hadapsar    Pune      Maharashtra    411013    
 
-                    AADHAAR    FIRSTNAME    LASTNAME    MOTHERNAME    FATHERNAME        SEX     BIRTHDAY    AGE    DISTRICTID         PHONE    DISTRICTID    LOCALITY    CITY          STATE       ZIP 
-            __________________ ____________ ___________ _____________ _____________ __________ ____________ ______ _____________ _____________ _____________ ___________ _______ ______________ _________ 
-            4616 8141 8774     Mayur        Chauhan     Mallika       Mahendra      M          01-JUN-98        22           235    9445560413           235 Hadapsar    Pune    Maharashtra    411013    
-            9159 9075 6877     Priti        Krishna     Niharika      Rakesh        F          03-FEB-84        37           235    9357732303           235 Hadapsar    Pune    Maharashtra    411013    
-            3904 9051 4118     Shrishti     Shetty      Pallavi       Mukesh        F          04-APR-93        28           235    9661640359           235 Hadapsar    Pune    Maharashtra    411013    
-            8683 3592 5077     Rehmat       Khan        Saloni        Nitish        M          27-APR-81        39           235    9673536403           235 Hadapsar    Pune    Maharashtra    411013    
-            8199 8865 9927     Celina       Dias        Eva           Thomas        F          27-JAN-75        46           235    9356542209           235 Hadapsar    Pune    Maharashtra    411013    
-            5039 9340 8931     Aasim        Moulvi      Jasbir        Rahul         M          06-DEC-71        49           235    9995661892           235 Hadapsar    Pune    Maharashtra    411013    
-            5308 9629 6615     Neha         Bhatt       Tanushree     Arun          F          12-AUG-75        45           235    9358443022           235 Hadapsar    Pune    Maharashtra    411013    
+                                        AADHAAR    FIRSTNAME    LASTNAME    MOTHERNAME    FATHERNAME        SEX     BIRTHDAY    AGE    DISTRICTID         PHONE    DISTRICTID    LOCALITY    CITY          STATE       ZIP 
+                                __________________ ____________ ___________ _____________ _____________ __________ ____________ ______ _____________ _____________ _____________ ___________ _______ ______________ _________ 
+                                4616 8141 8774     Mayur        Chauhan     Mallika       Mahendra      M          01-JUN-98        22           235    9445560413           235 Hadapsar    Pune    Maharashtra    411013    
+                                9159 9075 6877     Priti        Krishna     Niharika      Rakesh        F          03-FEB-84        37           235    9357732303           235 Hadapsar    Pune    Maharashtra    411013    
+                                3904 9051 4118     Shrishti     Shetty      Pallavi       Mukesh        F          04-APR-93        28           235    9661640359           235 Hadapsar    Pune    Maharashtra    411013    
+                                8683 3592 5077     Rehmat       Khan        Saloni        Nitish        M          27-APR-81        39           235    9673536403           235 Hadapsar    Pune    Maharashtra    411013    
+                                8199 8865 9927     Celina       Dias        Eva           Thomas        F          27-JAN-75        46           235    9356542209           235 Hadapsar    Pune    Maharashtra    411013    
+                                5039 9340 8931     Aasim        Moulvi      Jasbir        Rahul         M          06-DEC-71        49           235    9995661892           235 Hadapsar    Pune    Maharashtra    411013    
+                                5308 9629 6615     Neha         Bhatt       Tanushree     Arun          F          12-AUG-75        45           235    9358443022           235 Hadapsar    Pune    Maharashtra    411013    
 
-            21 rows selected. 
+                                21 rows selected. 
 
 ```
 
