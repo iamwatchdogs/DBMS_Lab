@@ -13,24 +13,26 @@ write a query to display the passenger list who are all booking 'British' airlin
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details with the below header.
+Output format:
+   The output prints the details with the below header.
 
-FIRST
+                     FIRST
 
-Sample testcases
-Input 1
-Output 1
 
-   FIRST 
-________ 
-kyra     
-Scott    
 
-2 rows selected. 
+Sample testcases:-
+
+Input 1:                      Output 1:
+
+                                 FIRST 
+                              ________ 
+                              kyra     
+                              Scott    
+
+                              2 rows selected. 
 ```
 
 ### Question 2 :
@@ -44,25 +46,27 @@ write a query to display the airline name and headquarters address of passenger 
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details with the below header.
+Output format:
+   The output prints the details with the below header.
 
-AIRLINENAME       HEADQUARTERSADDRESS
+         AIRLINENAME       HEADQUARTERSADDRESS
 
 
 
-Sample testcases
-Input 1
-Output 1
 
-        AIRLINENAME             HEADQUARTERSADDRESS 
-___________________ _______________________________ 
-Jet Blue Airways    19 Lamar St San Francisco NY    
 
-1 row selected. 
+Sample testcases:-
+
+Input 1:                                        Output 1:
+
+                                    AIRLINENAME             HEADQUARTERSADDRESS 
+                              ___________________ _______________________________ 
+                              Jet Blue Airways    19 Lamar St San Francisco NY    
+
+                              1 row selected. 
 ```
 
 ### Question 3 :
@@ -76,21 +80,23 @@ write a query to display count the passenger list who are all booking 'United Ai
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details.
+Output format:
+   The output prints the details.
 
-Refer sample output.
+         Refer sample output.
 
-Sample testcases
-Input 1
-Output 1
 
-   COUNT(*) 
-___________ 
-          1 
 
-1 row selected. 
+Sample testcases:-
+
+Input 1:                      Output 1:
+
+                                 COUNT(*) 
+                              ___________ 
+                                       1 
+
+                              1 row selected. 
 ```
