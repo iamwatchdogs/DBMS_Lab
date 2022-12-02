@@ -15,7 +15,7 @@ In which case would you use a FULL OUTER JOIN?
 
 In which case would you use a FULL OUTER JOIN?
 
-<!-- Need to add an image -->
+![image](https://user-images.githubusercontent.com/49478000/205344851-5440796a-d59b-4536-9bcf-558f04a740ae.png)
 
 - [ ] **Option 1**
 ```sql
@@ -92,7 +92,7 @@ ORDER BY company_name;
 
 Consider the table as below:
 
-<!-- Need to add an image -->
+![image](https://user-images.githubusercontent.com/49478000/205345001-e407d3e2-033f-4b09-b19f-b71bc0ee4630.png)
 
 How many rows fetched after performing full outer join?
 
