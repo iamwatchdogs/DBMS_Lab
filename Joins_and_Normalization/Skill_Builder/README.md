@@ -4,7 +4,11 @@
 
 ### Question 1 :
 
-<!-- Needed to add Image -->
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/205349576-9444552d-03ce-430c-81e5-90a3c8bca2e7.png)
+    
+</div>
 
 Display employee name, job title for the jobs employee did in the past where the job was done less than twelve months.
 
@@ -34,7 +38,11 @@ Input 1:                                    Output 1:
 
 ### Question 2 :
 
-<!-- Needed to add same Image -->
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/205349576-9444552d-03ce-430c-81e5-90a3c8bca2e7.png)
+    
+</div>
 
 Display the month in which more than 2 employees joined in any department located in Seattle.
 
@@ -64,7 +72,11 @@ Display the following details of voters who should be active.
 
 Have to display firstname, lastname, age and phone number of the voters with the above condition and if they are active then it shows 'yes' or else 'no'.
 
-<!-- Needed to add diff Image -->
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/205350133-34bbe290-c2f7-4bec-9d33-58db54b3a664.png)
+
+</div>
 
 ```
 Input format:
@@ -114,7 +126,11 @@ Input 1:                                          Output 1:
 
 Write a query to make the left join between address table and voter_table.
 
-<!-- Needed to add pervious Image -->
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/205350133-34bbe290-c2f7-4bec-9d33-58db54b3a664.png)
+
+</div>
 
 ```
 Input format:
@@ -170,7 +186,11 @@ From the Schema given below, write a query using the right outer join to display
 
 Sort the output by ascending order of department name.
 
-<!-- Needed to add completely diff Image -->
+<div align="center">
+    
+![image](https://user-images.githubusercontent.com/49478000/205350385-a9f836e4-55a2-4b44-a9df-e38fe3686f3e.png)
+
+</div>
 
 > **Note**:
 > 
