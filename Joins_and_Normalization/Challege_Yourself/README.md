@@ -13,7 +13,11 @@ The information to be displayed are,
 >
 >> Note that for each employee, only one row to be present in the output.
 
-<!-- Add Image -->
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/49478000/205354937-cfa6a2c8-f66b-4d93-b821-bc0f494f8a05.png)
+
+</div>
 
 > **Note**:
 >
@@ -55,7 +59,11 @@ The information to be displayed are:
 
 Sort the output by ascending order of department name.
 
-<!-- Need to add same image -->
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/49478000/205354937-cfa6a2c8-f66b-4d93-b821-bc0f494f8a05.png)
+
+</div>
 
 > **Note**:
 >
@@ -92,7 +100,11 @@ Input 1:                    Output 1:
 
 ### Question 3 :
 
-<!-- Need to add an diff image -->
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/49478000/205355116-cdbac414-3c01-4203-a230-003301065931.png)
+
+</div>
 
 Display last name, job title of employees who have commission percentage and belongs to department 30.
 
