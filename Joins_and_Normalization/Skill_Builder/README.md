@@ -174,15 +174,15 @@ Sort the output by ascending order of department name.
 
 > **Note**:
 > 
->> - Refer to the schema for table names and column names
+> - Refer to the schema for table names and column names
 >
->> - Table names are case sensitive
+> - Table names are case sensitive
 >
->> - **“WeeklyTimeSheet”** table stores the hours spent by employees in multiple departments for a given week (i.e. only one week) 
+> - **“WeeklyTimeSheet”** table stores the hours spent by employees in multiple departments for a given week (i.e. only one week) 
 >
->> - Use the `LEFT OUTER JOIN` concept.
+> - Use the `LEFT OUTER JOIN` concept.
 >
->> - Refer Output Format section for the header names while displaying the output.
+> - Refer Output Format section for the header names while displaying the output.
 
 ```
 Input format:
