@@ -13,23 +13,25 @@ write a query to display the passenger list who are all booking 'first" class fl
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details with the below header.
+Output format:
+   The output prints the details with the below header.
 
-FIRST
+                     FIRST
 
-Sample testcases
-Input 1
-Output 1
 
-   FIRST 
-________ 
-kylie    
 
-1 row selected. 
+Sample testcases:-
+
+Input 1:                             Output 1:
+
+                                       FIRST 
+                                    ________ 
+                                    kylie    
+
+                                    1 row selected. 
 ```
 
 ### Question 2:
@@ -43,23 +45,25 @@ write a query to count the passenger list of booking status 'success'
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details with the below header.
+Output format:
+   The output prints the details with the below header.
 
-RESERVATION_SUCCESS_COUNT
+            RESERVATION_SUCCESS_COUNT
 
-Sample testcases
-Input 1
-Output 1
 
-   RESERVATION_SUCCESS_COUNT 
-____________________________ 
-                           4 
 
-1 row selected. 
+Sample testcases:-
+
+Input 1:                             Output 1:
+
+                                       RESERVATION_SUCCESS_COUNT 
+                                    ____________________________ 
+                                                               4 
+
+                                    1 row selected. 
 ```
 
 ### Question 3:
@@ -73,23 +77,25 @@ write a query to count the passenger who is booking travel class 'economy'
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the count.
+Output format:
+   The output prints the count.
 
-Refer sample output.
+      Refer sample output.
 
-Sample testcases
-Input 1
-Output 1
 
-   COUNT(*) 
-___________ 
-          2 
 
-1 row selected. 
+Sample testcases:-
+
+Input 1:                             Output 1:
+
+                                       COUNT(*) 
+                                    ___________ 
+                                             2 
+
+                                    1 row selected. 
 ```
 
 
@@ -104,24 +110,26 @@ write a query to display the female passenger information who is reserved a tick
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details with the below header.
+Output format:
+   The output prints the details with the below header.
 
-FIRST  GENDER     PHONE
+            FIRST  GENDER     PHONE
 
-Sample testcases
-Input 1
-Output 1
 
-    FIRST    GENDER         PHONE 
-_________ _________ _____________ 
-kylie     F            9736363756 
-ariana    F            9556363756 
 
-2 rows selected. 
+Sample testcases:-
+
+Input 1:                                     Output 1:
+
+                                       FIRST    GENDER         PHONE 
+                                    _________ _________ _____________ 
+                                    kylie     F            9736363756 
+                                    ariana    F            9556363756 
+
+                                    2 rows selected. 
 ```
 
 ### Question 5:
@@ -135,24 +143,24 @@ write a query to display passenger list who are get travel agency discount>500
 </div>
 
 ```
-Input format
-No console input.
+Input format:
+   No console input.
 
-Output format
-The output prints the details with the below header.
+Output format:
+   The output prints the details with the below header.
 
-FIRST  GENDER     PHONE
+      FIRST  GENDER     PHONE
 
 
 
-Sample testcases
-Input 1
-Output 1
+Sample testcases:-
 
-   FIRST    GENDER         PHONE 
-________ _________ _____________ 
-lilly    F            9556363756 
+Input 1:                                        Output 1:
 
-1 row selected. 
+                                       FIRST    GENDER         PHONE 
+                                    ________ _________ _____________ 
+                                    lilly    F            9556363756 
+
+                                    1 row selected. 
 
 ```
