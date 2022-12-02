@@ -1,6 +1,6 @@
-SELECT p.FIRST
-FROM PASSENGER p, RESERVATION r, FLIGHT f, AIRLINE a
-WHERE
-    a.AIRLINENAME = "British" AND
-    a.AIRLINECODE = f.AIRLINECODE AND
-    f.PASSENGERID = p.PASSENGERID;
+SELECT first FROM PASSENGERS
+WHERE passengerid IN (SELECT passengerid FROM reservation
+                      WHERE flightnumber IN 
+                     (SELECT flightnumber FROM flight
+                      WHERE airlinecode IN 
+                     (SELECT airlinecode FROM airline WHERE airlinename='British')));

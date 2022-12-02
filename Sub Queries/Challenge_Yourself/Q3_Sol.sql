@@ -1,7 +1,3 @@
-SELECT COUNT(*)
-FROM PASSENGER p, RESERVATION r, FLIGHT F, AIRLINE a
-WHERE
-    a.AIRLINENAME = "United Airways" AND
-    a.AIRLINECODE = f.AIRLINECODE AND
-    f.FLIGHTNUMBER = r.FLIGHTNUMBER AND
-    r.RESERVATIONID = p.RESERVATIONID;
+SELECT COUNT(*) FROM reservation WHERE flightnumber IN
+    (SELECT flightnumber FROM flight WHERE airlinecode IN 
+    (SELECT airlinecode FROM airline WHERE airlinename='United Airways'));
