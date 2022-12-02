@@ -8,9 +8,7 @@ write a query to display the passenger list who are all booking 'British' airlin
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/49478000/199342442-0e76c1ab-6960-4f85-be30-9dc787289b78.png)
-![image](https://user-images.githubusercontent.com/49478000/199342543-ffc4de04-b354-4d7f-b984-dec53689a695.png)
-![image](https://user-images.githubusercontent.com/49478000/199342590-b68bece0-3d16-4626-bc96-d8656f71c851.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
 
 </div>
 
@@ -41,9 +39,7 @@ write a query to display the airline name and headquarters address of passenger 
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/49478000/199342442-0e76c1ab-6960-4f85-be30-9dc787289b78.png)
-![image](https://user-images.githubusercontent.com/49478000/199342543-ffc4de04-b354-4d7f-b984-dec53689a695.png)
-![image](https://user-images.githubusercontent.com/49478000/199342590-b68bece0-3d16-4626-bc96-d8656f71c851.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
 
 </div>
 
@@ -75,9 +71,7 @@ write a query to display count the passenger list who are all booking 'United Ai
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/49478000/199342442-0e76c1ab-6960-4f85-be30-9dc787289b78.png)
-![image](https://user-images.githubusercontent.com/49478000/199342543-ffc4de04-b354-4d7f-b984-dec53689a695.png)
-![image](https://user-images.githubusercontent.com/49478000/199342590-b68bece0-3d16-4626-bc96-d8656f71c851.png)
+![9578812933-1](https://user-images.githubusercontent.com/49478000/199410212-79fb10a1-6c0a-4681-873d-bc4af6b915a9.png)
 
 </div>
 
