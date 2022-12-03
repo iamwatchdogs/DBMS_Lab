@@ -1,9 +1,4 @@
-SELECT e.Empno, e.Ename, d.Dname, a.num AS NUMBER_OF_EMPLOYEES
-FROM Employee e, Department d,
-    (SELECT Manager Empno, COUNT(*) AS num
-    FROM Employee
-    GROUP BY Manager
-    HAVING COUNT(*) = ( SELECT MAX(COUNT(*))
-                        FROM Employee
-                        GROUP BY Manager)) AS a
-WHERE e.Empno = a.Empno AND e.Deptno = d.Deptno;
+SELECT empno,ename,dname,a.c number_of_employees FROM 
+(SELECT manager,COUNT(*)c FROM employee GROUP BY manager HAVING COUNT(*)=(
+SELECT max(COUNT(*))  FROM employee GROUP BY manager))a,employee e,department d WHERE
+e.empno = a.manager AND d.deptno = e.deptno;
