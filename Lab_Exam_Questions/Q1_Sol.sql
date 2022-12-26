@@ -65,3 +65,7 @@ SELECT * FROM Flights WHERE flight_name = 'kingfisher' AND from_ = 'vizag';
 SELECT * FROM Passengers WHERE age > 25;
 
 ----------------------------------------------------------------------------------------------------------------------
+
+UPDATE Airport SET airport_city = 'Visakhapatnam' WHERE airport_city = 'vizag';
+
+----------------------------------------------------------------------------------------------------------------------
