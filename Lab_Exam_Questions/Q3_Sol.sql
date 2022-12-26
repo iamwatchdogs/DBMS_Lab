@@ -21,11 +21,11 @@ CREATE TABLE Students
     CourseID INT REFERENCES Courses(CourseID)
 );
 
---------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 ALTER TABLE Courses ADD Course_duration NUMBER(10);
 
---------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 INSERT INTO Faculty VALUES ( '10', 'Sri Ram', 'networking' );
 INSERT INTO Faculty VALUES ( '20', 'Shyam', 'dbms' );
@@ -42,4 +42,15 @@ INSERT INTO Students VALUES ( 2, 'Ram', 'Mumbai', 475 );
 INSERT INTO Students VALUES ( 3, 'Hari', 'Goa', NULL );
 INSERT INTO Students VALUES ( 4, 'Vasu', 'marripalem', 475 );
 
---------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
+SELECT s.* FROM Students s JOIN Courses c ON s.CourseID = C.CourseID WHERE Course_name IN ( 'DBMS', 'DC', 'OS');
+
+SELECT * FROM Courses WHERE Course_fee BETWEEN 1000 AND 5000;
+
+SELECT StudID FROM Students WHERE CourseID IS NULL;
+
+SELECT Faculty_name FROM Faculty WHERE Specialization = 'networking';
+
+-----------------------------------------------------------------------------------------------------------------
+
