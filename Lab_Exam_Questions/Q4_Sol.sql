@@ -55,3 +55,7 @@ SELECT MIN(age) AS "Age" FROM Sailors GROUP BY rating;
 UPDATE Sailors SET sname = SUBSTR(sname,2) WHERE sname LIKE 'a%';
 
 ----------------------------------------------------------------------------
+
+ALTER TABLE Boats MODIFY Bid INT DEFAULT 0;
+
+----------------------------------------------------------------------------
