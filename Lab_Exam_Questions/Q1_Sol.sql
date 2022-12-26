@@ -52,3 +52,16 @@ INSERT INTO Flights VALUES ( 517, 'kingfisher', 'Bangalore', 'Mumbai', '09:00PM 
 
 ----------------------------------------------------------------------------------------------------------------------
 
+SELECT * FROM Flights WHERE ticket_fare > 5000 AND from_ = 'Bangalore';
+
+SELECT f.* FROM Flights f, Airport a, Passengers p
+WHERE a.Teriminal_name = 'CST Mumbai' AND
+      a.PassengerID = p.PassengerID   AND
+      p.Journey_date = '23-oct-16'    AND
+      a.AirID = f.AirID;
+
+SELECT * FROM Flights WHERE flight_name = 'kingfisher' AND from_ = 'vizag';
+
+SELECT * FROM Passengers WHERE age > 25;
+
+----------------------------------------------------------------------------------------------------------------------
