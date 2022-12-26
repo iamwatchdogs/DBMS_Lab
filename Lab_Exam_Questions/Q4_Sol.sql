@@ -24,3 +24,20 @@ CREATE TABLE Reserves
 );
 
 ---------------------------------------------------------------
+
+INSERT INTO Sailors VALUES ( 1, 'alan timber', 9, 45 );
+INSERT INTO Sailors VALUES ( 2, 'arivind', 7, 32 );
+INSERT INTO Sailors VALUES ( 3, 'surya', 5, 23 );
+INSERT INTO Sailors VALUES ( 4, 'sam', 10, 30 );
+
+INSERT INTO Boats VALUES ( 101, 'sunny', 'orange' );
+INSERT INTO Boats VALUES ( 103, 'summer time', 'blue' );
+INSERT INTO Boats VALUES ( 105, 'cherry boy', 'red' );
+INSERT INTO Boats VALUES ( 107, 'white shark', 'white' );
+
+INSERT INTO Reserves VALUES ( 1, 103, '15-oct-19' );
+INSERT INTO Reserves VALUES ( 1, 105, '27-nov-21' );
+INSERT INTO Reserves VALUES ( 2, 103, '01-jan-22' );
+INSERT INTO Reserves VALUES ( 3, 107, '09-dec-20' );
+
+---------------------------------------------------------------
