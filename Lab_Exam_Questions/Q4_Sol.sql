@@ -23,7 +23,7 @@ CREATE TABLE Reserves
     CONSTRAINT fK2 FOREIGN KEY (Bid) REFERENCES Boats(Bid)
 );
 
----------------------------------------------------------------
+----------------------------------------------------------------------------
 
 INSERT INTO Sailors VALUES ( 1, 'alan timber', 9, 45 );
 INSERT INTO Sailors VALUES ( 2, 'arivind', 7, 32 );
@@ -40,4 +40,14 @@ INSERT INTO Reserves VALUES ( 1, 105, '27-nov-21' );
 INSERT INTO Reserves VALUES ( 2, 103, '01-jan-22' );
 INSERT INTO Reserves VALUES ( 3, 107, '09-dec-20' );
 
----------------------------------------------------------------
+----------------------------------------------------------------------------
+
+SELECT * FROM Sailors WHERE rating > 7;
+
+SELECT sname FROM Sailors JOIN Reserves USING (Sid)  WHERE Bid = 103;
+
+SELECT sname FROM Sailors WHERE age < 30;
+
+SELECT MIN(age) AS "Age" FROM Sailors GROUP BY rating;
+
+----------------------------------------------------------------------------
