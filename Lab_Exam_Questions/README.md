@@ -82,3 +82,30 @@ Faculty (FacultyID: String, Faculty_name: string, Specialization: String)
   - Find the faculty names whose specialization is “networking”.
 - Modify the faculty id from 20 to 40.
 - Remove the rows from faculty whenever faculty name is 'Shyam'
+
+<br/>
+
+## Question 4:
+
+- Create a table for the following relation schemas.
+```sql
+Sailors (Sid: integer, sname: string, rating: integer, age: real)
+
+Boats (Bid: integer, bname: string, color: string)
+
+Reserves (Sid: integer, bid: integer, day: date)
+```
+> **Note**:
+> 
+> - Make Sid, Bid and {Sid, bid} as Primary keys in Sailors, Boats and Reserves tables respectively.
+> - Make Sid and Bid as foreign keys in Reserves table refers primary key in Sailors and Boats tables respectively.
+
+- Insert at least 4 rows into these 3 tables.
+- Write SQL Queries for the following.
+  - Find all sailors with a rating above 7.
+  - Find the names of sailors who have reserved boat number 103.
+  - Find the names of all sailors who have age below 30.
+  - Find the age of the youngest sailor for each rating level.
+- Cut the character ‘a’ from Sailor name at the beginning of this column.
+- Make the default value of bid of boats table as ‘0’.
+- Remove the rows from reserves table whenever boat number is 105
