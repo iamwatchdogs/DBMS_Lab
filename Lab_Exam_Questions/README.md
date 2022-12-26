@@ -55,3 +55,30 @@ Price: float, LibMemberid: int)
   - Find the library member id and the name of the student who had borrowed the book with author name as ‘Shakespeare’.
 - Delete the rows from books whose book title is ‘Microelectronics’.
 - Change the data type of Price from float to int.
+
+<br/>
+
+## Question 3:
+
+- Create a table for the following relation schemas.
+```sql
+Students (StudID: integer, stud_name: string, stud_address: string, CourseID: integer)
+
+Courses (CourseID: integer, Course_name: string, Course_fee: integer, FacultyID: string)
+
+Faculty (FacultyID: String, Faculty_name: string, Specialization: String)
+```
+> **Note**:
+> 
+> - Make StudID, CourseID, FacultyID as Primary keys in Students, Courses and Faculty tables respectively.
+> - Make CourseID and FacultyID as foreign keys in Students and Courses tables respectively.
+
+- Add a column called Course_duration of number data type to the Courses table.
+- Insert at least 4 rows into these 3 tables.
+- Write SQL Queries for the following.
+  - Find the student details who have enrolled for the courses ‘DBMS’, ’DC’, ’OS’.
+  - Find the Course details whose course fee ranges in 1000-5000 (both values inclusive).
+  - Find the student id’s who have not enrolled for any course (means CourseID is NULL).
+  - Find the faculty names whose specialization is “networking”.
+- Modify the faculty id from 20 to 40.
+- Remove the rows from faculty whenever faculty name is 'Shyam'
