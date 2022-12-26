@@ -41,6 +41,6 @@ SELECT LibMemberID,BorrowerName FROM Books JOIN Library using (LibMemberID) WHER
 
 -----------------------------------------------------------------------------------------------------------------------
 
-ALTER TABLE Library DROP COLUMN Lib_extra_fee;
+DELETE FROM Books WHERE BookTitle = 'Microelectronics';
 
 -----------------------------------------------------------------------------------------------------------------------
