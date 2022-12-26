@@ -51,3 +51,7 @@ SELECT sname FROM Sailors WHERE age < 30;
 SELECT MIN(age) AS "Age" FROM Sailors GROUP BY rating;
 
 ----------------------------------------------------------------------------
+
+UPDATE Sailors SET sname = SUBSTR(sname,2) WHERE sname LIKE 'a%';
+
+----------------------------------------------------------------------------
