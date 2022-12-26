@@ -31,6 +31,16 @@ INSERT INTO Books VALUES ( 369, 'Microelectronics', 'R.K.Wilson', 'New Foundatio
 
 -----------------------------------------------------------------------------------------------------------------------
 
+SELECT * FROM Books WHERE BookTitle = 'Database_system_concepts';
+
+SELECT * FROM Books WHERE BookTitle LIKE 'Tata%';
+
+SELECT * FROM Books WHERE LibMemberID = '789';
+
+SELECT LibMemberID,BorrowerName FROM Books JOIN Library using (LibMemberID) WHERE Author = 'Shakespeare';
+
+-----------------------------------------------------------------------------------------------------------------------
+
 ALTER TABLE Library DROP COLUMN Lib_extra_fee;
 
 -----------------------------------------------------------------------------------------------------------------------
