@@ -29,6 +29,8 @@ Journey_date: date, seat_no: string, AirID: int)
 - Update the airport_city name as ‘Visakhapatnam’ instead of ‘vizag’.
 - drop the table Airport table
 
+<br/>
+
 ## Question 2:
 
 - Create a table for the following relation schemas.
