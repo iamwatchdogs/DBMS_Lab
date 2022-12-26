@@ -44,3 +44,8 @@ SELECT LibMemberID,BorrowerName FROM Books JOIN Library using (LibMemberID) WHER
 DELETE FROM Books WHERE BookTitle = 'Microelectronics';
 
 -----------------------------------------------------------------------------------------------------------------------
+
+DELETE FROM Books;
+ALTER TABLE Books MODIFY Price INT;
+
+-----------------------------------------------------------------------------------------------------------------------
