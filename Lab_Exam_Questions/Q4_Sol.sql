@@ -59,3 +59,7 @@ UPDATE Sailors SET sname = SUBSTR(sname,2) WHERE sname LIKE 'a%';
 ALTER TABLE Boats MODIFY Bid INT DEFAULT 0;
 
 ----------------------------------------------------------------------------
+
+DELETE FROM Reserves WHERE BID = 105;
+
+----------------------------------------------------------------------------
