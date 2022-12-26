@@ -30,3 +30,7 @@ INSERT INTO Books VALUES ( 275, 'Tata Motors car design', 'Tata industries', 'KR
 INSERT INTO Books VALUES ( 369, 'Microelectronics', 'R.K.Wilson', 'New Foundation publications', 1500, 789 );
 
 -----------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE Library DROP COLUMN Lib_extra_fee;
+
+-----------------------------------------------------------------------------------------------------------------------
