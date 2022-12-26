@@ -28,3 +28,28 @@ Journey_date: date, seat_no: string, AirID: int)
   - Find all the passenger details whose age is above 25. 
 - Update the airport_city name as ‘Visakhapatnam’ instead of ‘vizag’.
 - drop the table Airport table
+
+## Question 2:
+
+- Create a table for the following relation schemas.
+```sql
+Library (LibMemberID: int, BorrowerName: string, Borrowerbranch: string,
+No_books_issued: integer, Lib_extra_fee: integer).
+
+Books (ISBNNUM: integer, BookTitle: string, Author: string, Publisher: string,
+Price: float, LibMemberid: int)
+```
+> **Note**:
+>
+> - Make LibMemberID, ISBNNUM as Primary keys in Library and Books tables respectively
+> - Make LibMemberid as foreign key in Books table.
+
+- Insert at least 4 rows into these 2 tables.
+- Drop the column Lib_extra_fee from library table.
+- Write SQL Queries for the following
+  - Find all the book details for the book titled ‘Database_system_concepts’
+  - Find all the book details whose Title starts with ‘Tata’.
+  - Find all the book details that are issued for the library member id ‘789’.
+  - Find the library member id and the name of the student who had borrowed the book with author name as ‘Shakespeare’.
+- Delete the rows from books whose book title is ‘Microelectronics’.
+- Change the data type of Price from float to int.
